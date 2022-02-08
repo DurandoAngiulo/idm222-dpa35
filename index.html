@@ -9,13 +9,18 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- header image-->
-    <div class= "mainImageHeader">
-        <img class= "mainimage"
-        src="https://via.placeholder.com/1080x800" 
-        alt="Durando image">
-        <p>Hi I'm Durando</p>
-        <h1>I'm a UX Designer</h1>
+    <!-- header-->
+    <div class= "header">
+        <div class= "header_content">
+            <p class="header_subtitle">Hi I'm Durando</p>
+            <h1 class="header_title">I'm a UX Designer</h1>
+        </div>
+        <picture>
+            <source media="(min-width: 1100px)" srcset="images/mainpages/hero-large.jpg"/>
+            <source media="(min-width: 600px)" srcset="images/mainpages/hero-medium.jpg"/>
+            <source media="(min-width: 0px)" srcset="images/mainpages/hero-mobile.jpg"/>
+            <img class="header_image" src="./images/mainpages/hero-medium.jpg" alt="Durando bg" />
+        </picture>
     </div>
     <div class= "workheader">
         <h2>LATEST WORK</h2>

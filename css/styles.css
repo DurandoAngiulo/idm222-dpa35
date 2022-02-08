@@ -105,131 +105,170 @@
     font-style: italic;
     font-display: swap;
 }
-@font-face {
-    font-family: 'Spectral';
-    src: url('../fonts/spectral/Spectral-BoldItalic.woff2') format('woff2'),
-        url('../fonts/Spectral-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
+/* POPPINS */
 
 @font-face {
-    font-family: 'Spectral';
-    src: url('../fonts/spectral/Spectral-ExtraBold.woff2') format('woff2'),
-        url('../fonts/spectral/Spectral-ExtraBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Spectral';
-    src: url('../fonts/spectral/Spectral-ExtraBoldItalic.woff2') format('woff2'),
-        url('../fonts/spectral/Spectral-ExtraBoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Spectral';
-    src: url('../fonts/spectral/Spectral-Bold.woff2') format('woff2'),
-        url('../fonts/spectral/Spectral-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Spectral';
-    src: url('../fonts/spectral/Spectral-ExtraLightItalic.woff2') format('woff2'),
-        url('../fonts/spectral/Spectral-ExtraLightItalic.woff') format('woff');
-    font-weight: 200;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Spectral';
-    src: url('../fonts/spectral/Spectral-ExtraLight.woff2') format('woff2'),
-        url('../fonts/spectral/Spectral-ExtraLight.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Spectral';
-    src: url('../fonts/spectral/Spectral-Italic.woff2') format('woff2'),
-        url('../fonts/spectral/Spectral-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Spectral';
-    src: url('../fonts/spectral/Spectral-Light.woff2') format('woff2'),
-        url('../fonts/spectral/Spectral-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Spectral';
-    src: url('../fonts/spectral/Spectral-Regular.woff2') format('woff2'),
-        url('../fonts/spectral/Spectral-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Spectral';
-    src: url('../fonts/spectral/Spectral-LightItalic.woff2') format('woff2'),
-        url('../fonts/spectral/Spectral-LightItalic.woff') format('woff');
+    font-family: 'Poppins';
+    src: url('Poppins-LightItalic.woff2') format('woff2'),
+        url('Poppins-LightItalic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Spectral';
-    src: url('../fonts/spectral/Spectral-Medium.woff2') format('woff2'),
-        url('../fonts/spectral/Spectral-Medium.woff') format('woff');
-    font-weight: 500;
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Italic.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Black.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Black.woff') format('woff');
+    font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Spectral';
-    src: url('../fonts/spectral/Spectral-MediumItalic.woff2') format('woff2'),
-        url('../fonts/spectral/Spectral-MediumItalic.woff') format('woff');
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Light.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-ExtraLight.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-MediumItalic.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-MediumItalic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Spectral';
-    src: url('../fonts/spectral/Spectral-SemiBold.woff2') format('woff2'),
-        url('../fonts/spectral/Spectral-SemiBold.woff') format('woff');
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Thin.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-BlackItalic.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-ExtraBold.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Bold.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-SemiBold.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Spectral';
-    src: url('../fonts/spectral/Spectral-SemiBoldItalic.woff2') format('woff2'),
-        url('../fonts/spectral/Spectral-SemiBoldItalic.woff') format('woff');
-    font-weight: 600;
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-BoldItalic.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-BoldItalic.woff') format('woff');
+    font-weight: bold;
     font-style: italic;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-ThinItalic.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 *{
     box-sizing:border-box;
@@ -242,7 +281,7 @@ body{
 /* font selectors */
 
 h1 {
-    font-family: Spectral, Helvetica, sans-serif;
+    font-family: Poppins, Helvetica, sans-serif;
     font-weight: 600;
     font-style: normal; 
     color: #5f5f5f;
@@ -250,7 +289,7 @@ h1 {
 }
 
 h2{
-    font-family: Spectral, Helvetica, sans-serif;
+    font-family: Poppins, Helvetica, sans-serif;
     font-weight: 500;
     font-style: normal;  
     color: #5f5f5f;
@@ -288,23 +327,44 @@ img{
     height: auto;
     width: 100%;
 }
-.mainimage{
-    object-fit: cover;
-    object-position: center;
-    min-height: 700px;
-    width: 100%;
 
+/* hero header styles */
+
+.header{
+    min-height: 600px;
+    position: relative;
 }
 
+.header_image{
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+}  
 
+.header_content {
+    margin: 0 20% 0% 2%;
+    max-width: 100%;
+    padding: 250px 0px;
+    position: relative;
+    z-index: 50;
+}
 
+.header_subtitle{
+text-align: left;
+color: #f1f1f1;
+font-weight: 500;
+}
 
-
-
-
-/* .casestudy_image{
-  
-} */
+.header_title{
+    text-align: left;
+    color: #f1f1f1;
+    margin-top: 0;
+}
 
 /* homepage/project framework selectors */
 .projectswrapper {
@@ -429,6 +489,9 @@ img{
 
 
 @media screen and (min-width: 450px){
+/* headerselectors */
+
+
     /* home and project selectors */
     .projectswrapper{
         padding: 7%;
@@ -473,10 +536,20 @@ img{
 
     
 @media screen and (min-width: 650px) {
+ /* header selectors */
 
-    p{
-        font-size: 120%;
+    .header_content {
+        margin: 0 20% 0% 5%;
     }
+
+    .header_subtitle{
+       font-size: 140%;
+        }
+        
+        .header_title{
+            font-size: 250%;
+        }
+
     .projectswrapper{
         padding: 10%;
     }
