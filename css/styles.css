@@ -275,7 +275,7 @@
 }
 
 body{
-    background-color: #EEF6FE;
+    background-color: #d2e8ff;
 }
 
 /* font selectors */
@@ -284,7 +284,7 @@ h1 {
     font-family: Poppins, Helvetica, sans-serif;
     font-weight: 600;
     font-style: normal; 
-    color: #5f5f5f;
+    color: #3e3e49;
     text-align: center;
 }
 
@@ -292,7 +292,7 @@ h2{
     font-family: Poppins, Helvetica, sans-serif;
     font-weight: 500;
     font-style: normal;  
-    color: #5f5f5f;
+    color: #3e3e49;
     text-align: center;
 }
 
@@ -300,7 +300,7 @@ p{
     font-family: 'Source Sans Pro', Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #5f5f5f;
+    color: #3e3e49;
     font-size: 120%;
     line-height: 1.9rem;
     margin: 0;
@@ -383,23 +383,17 @@ font-weight: 500;
     margin: 0 0 3rem; 
 }
 
-
-
-
- /* DIFFERNT COLORS pic bgs */
-.projectcontainer--green{
-    background-image: linear-gradient(to right,#061f07, #10501e );   
+.project_title{
+    color: #f1f1f1;
+    text-align: center;
+    font-weight: 600;
+    font-size: 160%;
+    width: 100%;
 }
-.projectcontainer--storm{
-    background-image: linear-gradient(to right,#424353, #272b38 );   
-
+.project_textcontainer{
+    padding: 0rem 7% 1rem;
+    background-color: #316092;
 }
-
-
-
-
-
-
 
 .project_buttoncontainer{
     display: flex;
@@ -418,34 +412,7 @@ font-weight: 500;
     border: none;
     border-radius: 10px;
 }
-/* BUTTON BG COLORS */
-.project_button--green{
-    background-color: rgba(73, 167, 77, 0.7);
-}
-.project_button--storm{
-    background-color: rgba(154, 156, 182, 0.7);
-  
-}
-.project_title{
-    color: #f1f1f1;
-    text-align: center;
-    font-weight: 600;
-    font-size: 160%;
-    width: 100%;
-}
-.project_textcontainer{
-    padding: 0rem 7% 1rem;
-    background-color: #316092;
-}
 
-
-/* TEXT CONTAINER BG colors */
-.project_textcontainer--green{
-    background-color: #1f612d;
-}
-.project_textcontainer--storm{
-    background-color: #686c85;
-}
 .project_imagecontainer{
     padding: 2rem 2rem;  
     display: flex;
@@ -459,6 +426,116 @@ font-weight: 500;
     color: white;
     margin: 0;
 }
+
+/* FOOTER Selectors */
+.main_footer{
+    min-height: 400px;
+    position: relative;
+}
+
+.footer_image{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+}  
+
+.footer_content {
+    margin: 0 25px 0%;
+    max-width: 100%;
+    padding: 100px 0px 0;
+    position: relative;
+    z-index: 50;
+}
+.emailcontainer{
+    width: 100%;
+    /* max-height: 100px; */
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.footer_subtitle{
+    text-align: center;
+    color: #f1f1f1;
+    font-weight: 500;
+    font-size: 170%;
+    font-style: italic;
+    }
+    
+.footer_title{
+     text-align: center;
+    color: #f1f1f1;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 250%;
+    }
+
+.secondary_footer{
+    background-color: #4b4e4d;
+    border-top: solid 0.5px #0e0f1b;
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.socialmedia_container{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.socialmedia_imagecontainer{
+    margin: 0 .5rem;
+}
+
+.socialmedia_image{
+    width: 90%;
+}
+
+.footertext_container{
+    padding: 0 1rem;
+
+}
+.footertext{
+    display: block;
+    width: 100%;
+    color: #f1f1f1;
+    padding: 0 1rem;
+}
+ /* DIFFERNT COLORS pic bgs */
+.projectcontainer--green{
+    background-image: linear-gradient(to right,#061f07, #10501e );   
+}
+.projectcontainer--storm{
+    background-image: linear-gradient(to right,#424353, #272b38 );   
+
+}
+
+/* BUTTON BG COLORS */
+.project_button--green{
+    background-color: rgba(73, 167, 77, 0.7);
+}
+.project_button--storm{
+    background-color: rgba(154, 156, 182, 0.7);
+  
+}
+
+/* TEXT CONTAINER BG colors */
+.project_textcontainer--green{
+    background-color: #1f612d;
+}
+.project_textcontainer--storm{
+    background-color: #686c85;
+}
+
+
+
+
 
 
 
