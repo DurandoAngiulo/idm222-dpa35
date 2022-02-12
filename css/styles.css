@@ -275,7 +275,7 @@
 }
 
 body{
-    background-color: #d2e8ff;
+    background-color: #e7f2fd;
 }
 
 /* font selectors */
@@ -289,13 +289,19 @@ h1 {
 }
 
 h2{
-    font-family: Poppins, Helvetica, sans-serif;
+    font-family: 'Poppins', Helvetica, sans-serif;
     font-weight: 500;
     font-style: normal;  
     color: #3e3e49;
     text-align: center;
 }
-
+h4{
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;  
+    color: #3e3e49;
+    text-align: center;
+}
 p{
     font-family: 'Source Sans Pro', Helvetica, sans-serif;
     font-weight: 400;
@@ -315,12 +321,18 @@ p{
 
 /* seperator */
 .pageborder{
-    background-color: #5f5f5f;
+    background-color: #3e3e49;
     height: 2px;
-    margin: .5rem auto;
-    width: 50%;
+    margin: 1.5rem auto 0;
+    width: 80%;
     border-radius: 20%;
 }
+.pageborder--white{
+    background-color: #e7f2fd;
+    height: .5px;
+   
+}
+
 
 /* image selectors */
 img{
@@ -345,9 +357,20 @@ img{
     width: 100%;
     z-index: 20;
 }  
+.header_image--work{
+    object-position: center;
+}
 
 .header_content {
     margin: 0 20% 0% 2%;
+    max-width: 100%;
+    padding: 250px 0px;
+    position: relative;
+    z-index: 50;
+}
+
+.centerheader_content {
+    margin: 0 10%;
     max-width: 100%;
     padding: 250px 0px;
     position: relative;
@@ -365,7 +388,30 @@ font-weight: 500;
     color: #f1f1f1;
     margin-top: 0;
 }
+.centerheader_title{
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    color: #f1f1f1;
+    margin-top: 0;
+    font-size: 250%;
+}
+.workheader{
+    margin-top: 5rem;
+    margin: 5rem 10% 0;
+}
+.workheader_subtitle{
+font-style: italic;
+font-size: 150%;
+text-align: center;
+margin-bottom: 3.5rem;
 
+}
+.workheader_title{
+    margin-top: 4rem;
+    font-size: 300%;
+    font-weight: 600;
+}
 /* homepage/project framework selectors */
 .projectswrapper {
     display: flex;
@@ -380,7 +426,7 @@ font-weight: 500;
     flex-wrap: wrap;
     justify-content: center;
     border-radius: 0;
-    margin: 0 0 3rem; 
+    margin: 0 0 5rem; 
 }
 
 .project_title{
@@ -393,6 +439,7 @@ font-weight: 500;
 .project_textcontainer{
     padding: 0rem 7% 1rem;
     background-color: #316092;
+    border-radius: 0 0 10px 10px;
 }
 
 .project_buttoncontainer{
@@ -402,7 +449,7 @@ font-weight: 500;
     width: 100%;
 }
 .project_button{
-    font-family: Spectral, Helvetica, sans-serif;
+    font-family: Poppins, Helvetica, sans-serif;
     font-size: 130%;
     background-color: rgba(113, 147, 185, 0.7);
     color: white;
@@ -428,69 +475,52 @@ font-weight: 500;
 }
 
 /* FOOTER Selectors */
-.main_footer{
-    min-height: 400px;
-    position: relative;
-}
 
-.footer_image{
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 20;
-}  
+.footer_header{
+    display: block;
+    color: #e7f2fd;
+    text-align: center;
+    padding: 2rem;
 
-.footer_content {
-    margin: 0 25px 0%;
-    max-width: 100%;
-    padding: 100px 0px 0;
-    position: relative;
-    z-index: 50;
 }
-.emailcontainer{
+.footer_buttoncontainer{
+    margin: 5rem 0 1rem;
     width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.footer_button{
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 150%;
+    font-weight: 500;
+    background-color: transparent;
+    /* background-color: rgba(113, 147, 185, 0.7); */
+    color: #e7f2fd;
+    border: 2px solid #e7f2fd;
+    width: 100%;
+    max-width: 250px;
+    height:50px;
+    border-radius: 7px;
+}
+.footer{
+    background-color: #272b38;
+    border-top: solid 0.5px #0e0f1b;
     /* max-height: 100px; */
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
-}
-
-.footer_subtitle{
-    text-align: center;
-    color: #f1f1f1;
-    font-weight: 500;
-    font-size: 170%;
-    font-style: italic;
-    }
-    
-.footer_title{
-     text-align: center;
-    color: #f1f1f1;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font-size: 250%;
-    }
-
-.secondary_footer{
-    background-color: #4b4e4d;
-    border-top: solid 0.5px #0e0f1b;
-    max-height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
 }
 .socialmedia_container{
     display: flex;
     justify-content: center;
+    width: 100%;
     padding: 1rem;
 }
 
 .socialmedia_imagecontainer{
     margin: 0 .5rem;
+    display: flex;
+    justify-content: center;
 }
 
 .socialmedia_image{
@@ -503,9 +533,12 @@ font-weight: 500;
 }
 .footertext{
     display: block;
+    text-align: center;
+    margin: .5rem 0 1rem;
     width: 100%;
     color: #f1f1f1;
-    padding: 0 1rem;
+    padding: 0 2rem;
+    font-size: 80%;
 }
  /* DIFFERNT COLORS pic bgs */
 .projectcontainer--green{
@@ -515,6 +548,16 @@ font-weight: 500;
     background-image: linear-gradient(to right,#424353, #272b38 );   
 
 }
+.projectcontainer--blue{
+    background-image: linear-gradient(to left,#102b44, #154377 );     
+}
+.projectcontainer--dark{
+    background-image: linear-gradient(to left,#222222, #414141 );  
+}
+.projectcontainer--light{
+    background-image: linear-gradient(to left,#8a8a8a, #999999 );  
+}
+
 
 /* BUTTON BG COLORS */
 .project_button--green{
@@ -524,6 +567,12 @@ font-weight: 500;
     background-color: rgba(154, 156, 182, 0.7);
   
 }
+.project_button--dark{
+    background-color: rgba(179, 179, 179, 0.7);
+}
+.project_button--light{
+    background-color: rgba(145, 145, 145, 0.7);
+}
 
 /* TEXT CONTAINER BG colors */
 .project_textcontainer--green{
@@ -531,6 +580,13 @@ font-weight: 500;
 }
 .project_textcontainer--storm{
     background-color: #686c85;
+}
+
+.project_textcontainer--dark{
+    background-color: #616161;
+}
+.project_textcontainer--light{
+    background-color: #a8a8a8;
 }
 
 
@@ -691,11 +747,16 @@ font-weight: 500;
         padding-right: 30%;
     }
     
+    .socialmedia_image{
+        width: 75%;
+    }
 }
 
     
 
 @media screen and (min-width: 1080px) {
+    
+    /* hoempage project Selectors */
     .projectswrapper{
     padding: 5%;   
     justify-content: space-around;
@@ -708,7 +769,7 @@ font-weight: 500;
         min-height: 500px;
         max-width: 1250px;
         border-radius: 0;
-        margin: 0 0 3rem; 
+        margin: 0 0 5rem; 
         border-radius: 10px;
         box-shadow: 5px 5px  5px rgba(0, 0, 0, 0.5);
     }
@@ -725,6 +786,14 @@ font-weight: 500;
         width: 50%;
         align-items: center;
     }
+
+
+    /* Footer selectors */
+
+    .socialmedia_image{
+        width: 65%;
+    }
+
 
 .casestudywrapper{
     padding: 1%;
