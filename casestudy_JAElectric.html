@@ -10,17 +10,21 @@
 </head>
 <body>
     <div class = "casestudywrapper">
-        <div class= "casestudytittle">
-            <h1>
+        <div class= "casestudytitle_container">
+            <h1 class="casestudy_titletext">
                 JA Electric <b>Site Design</b> 
             </h1>
         </div>
-        <div class= "casestudycontianer">
-            <div class= "casestudy_imagecontainer">
-                <img class= "casestudy_image" src="https://via.placeholder.com/500x500"
-                alt= "image1">
+        <div class= "casestudycontainer">
+            <div class= "casestudy_imagecontainer  casestudy_imagecontainer--white">
+                <picture>
+                    <source media="(min-width: 800px)" srcset="images/jaelectriccasestudy/jaelectriclogo-medium.jpg" />
+                    <source media="(min-width: 0px)" srcset="images/jaelectriccasestudy/jaelectriclogo-small.jpg" />
+                    <img class="casestudy_image" src= "images/jaelectriccasestudy/jaelectriclogo-medium.jpg" 
+                    alt="JA electric logo">
+                </picture>
             </div>
-            <div class= "casestudy_textcontainer">
+            <div class= "casestudy_textcontainer casestudy_container--first">
                 <p>
                     This was a smaller freelance project I undertook. 
                     I was offered to design a website for a local residential 
@@ -30,13 +34,17 @@
                 </p>    
             </div>
         </div>
-        <div class= "casestudycontianer">
-            <div class= "casestudy_imagecontainer">
-                <img class= "casestudy_image" src="https://via.placeholder.com/500x500"
-                alt= "image1">
+        <div class= "casestudycontainer">
+            <div class= "casestudy_imagecontainer--center  casestudy_imagecontainer--bage">
+                <picture>
+                    <source media="(min-width: 800px)" srcset="images/jaelectriccasestudy/jainprogress-medium.jpg" />
+                    <source media="(min-width: 0px)" srcset="images/jaelectriccasestudy/jainprogress-small.jpg" />
+                    <img class="casestudy_image" src= "images/jaelectriccasestudy/jainprogress-medium.jpg" 
+                    alt="drexel Logo">
+                </picture>
             </div>
-            <div class= "casetudy_sectiontitle_container">
-                <h2 class= "casestudy_sectiontitle">
+            <div class= "casestudysectiontitle_container">
+                <h2 class= "casestudySectiontitle">
                     <b>Designing</b> the Site
                 </h2>
             </div>
@@ -55,15 +63,21 @@
                 </p>
             </div>
         </div> 
-        <div class= "casestudycontianer">
-            <div class= "casestudy_imagecontainer">
-                <a href="https://jaelectricinc.net/" target="_blank">
-                    <img class= "casestudy_image" src="https://via.placeholder.com/500x500"
-                    alt= "image1">
-                </a>    
+        <div class= "casestudycontainer casestudycontainer--bottom">
+            <div class= "casestudy_imagecontainer ">
+                <div class= "casestudy_imagecontainer--center  casestudy_imagecontainer--bage">
+                    <picture>
+                        <source media="(min-width: 800px)" srcset="images/jaelectriccasestudy/jaelectircsite-medium.jpg" />
+                        <source media="(min-width: 0px)" srcset="images/jaelectriccasestudy/jaelectircsite-small.jpg" />
+                        <a href="https://jaelectricinc.net/" target="_blank">
+                            <img class= "casestudy_image" src="images/jaelectriccasestudy/jaelectircsite-medium.jpg"
+                            alt= "image1">
+                        </a>    
+                    </picture>
+                </div> 
             </div>
-            <div class= "casetudy_sectiontitle_container">
-                <h2 class= "casestudy_sectiontitle">
+            <div class= "casestudysectiontitle_container">
+                <h2 class= "casestudySectiontitle">
                     The <b>Final</b> Design
                 </h2>
             </div>
@@ -80,6 +94,39 @@
             </div>
         </div> 
     </div>
-    
+    <footer>
+        <div class="footer">
+            <div class="footer_buttoncontainer">
+                <button class="footer_button" onclick="window.location.href='mailto:dpa35@drexel.edu';" target="blank">
+                    Let's Connect
+                </button>
+            </div>
+            <h4 class="footer_header">
+                Get in touch if you have a new project or 
+                just want to chat! :)
+            </h4>
+            <div class=" socialmedia_container">
+                <div class="socialmedia_imagecontainer">
+                    <a href="https://www.instagram.com/durando_angiulo/" target= "_blank">
+                        <img class="socialmedia_image" src="./images/mainpages/instagram.png" alt="instagram link" />
+                    </a>
+                </div>
+                <div class="socialmedia_imagecontainer">
+                    <a href="https://twitter.com/durandoangiulo?lang=en" target= "_blank">
+                        <img class="socialmedia_image" src="./images/mainpages/twitter.png" alt="instagram link" />
+                    </a>
+                </div>
+                <div class="socialmedia_imagecontainer">
+                    <a href="https://www.linkedin.com/in/durando-angiulo-971b57203" target= "_blank">
+                        <img class="socialmedia_image" src="./images/mainpages/linkdin.png" alt="instagram link" />
+                    </a>
+                </div>
+            </div>
+            <div class=" pageborder pageborder--white"></div>
+            <p class="footertext">
+                &copy; Durando Angiulo 2022
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
