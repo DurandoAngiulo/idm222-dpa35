@@ -347,7 +347,6 @@ ul{
    
 }
 
-
 /* image selectors */
 img{
     height: auto;
@@ -491,18 +490,29 @@ margin-bottom: 3.5rem;
     padding: 1rem 0;
     width: 100%;
 }
+
+.button_linkcontainer{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
 .project_button{
     font-family: Poppins, Helvetica, sans-serif;
     font-size: 130%;
     background-color: rgba(113, 147, 185, 0.7);
     color: white;
-    width: 100%;
+    width: 300px;
     max-width: 70%;
     height:50px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 
+.project_button:hover{
+    color: white;
+    background-color: rgba(221, 221, 221, 0.781);
+}
 /* About me selectors */
 
 .aboutme_wrapper{
@@ -768,11 +778,15 @@ margin-bottom: 3.5rem;
   
 }
 .project_button--dark{
-    background-color: rgba(179, 179, 179, 0.7);
+    background-color: rgba(124, 124, 124, 0.7);
 }
 .project_button--light{
-    background-color: rgba(145, 145, 145, 0.7);
+    background-color: rgba(189, 185, 185, 0.7);
 }
+
+
+
+
 
 /* home/work TEXT CONTAINER BG colors */
 .project_textcontainer--green{
