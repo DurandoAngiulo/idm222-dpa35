@@ -949,7 +949,7 @@ margin-bottom: 3.5rem;
     background-image: linear-gradient(to left,#222222, #414141 );  
 }
 .projectcontainer--light{
-    background-image: linear-gradient(to left,#8a8a8a, #999999 );  
+    background-image: linear-gradient(to left,#7c7c7c, #8f8f8f );  
 }
 
 
@@ -991,7 +991,9 @@ margin-bottom: 3.5rem;
 
 
 /* casestudy bg colors */
-
+.casestudy_imagecontainer--rico{
+background-color: #1B2732;    
+}
 .casestudy_imagecontainer--darkblue{
     background-color: #121d27;
     }

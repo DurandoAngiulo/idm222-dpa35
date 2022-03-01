@@ -9,6 +9,71 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <nav class="nav">
+        <!-- mobile nav -->
+        <div class=" mobile_navcontainer 'mobile-nav-closed'">
+            <div class=" name_container">
+                <a href="index.html">
+                    <h2 class="name">Durando Angiulo</h2>
+                </a>
+            </div>
+             <!-- open button -->
+            <div id="mobile-nav-open-button" class="mobile-nav_button-container">
+                <img class= "menu_button" src="images/mainpages/menubutton.png"
+                alt="menu button">
+            </div>
+            <nav id="mobile-nav" class="mobile-dropdown">
+                <ul class="mobile_dropdown-list">
+                    <li class="nav_mobile-list-item">
+                        <a href="work.html" class="nav_mobile-list-link">
+                            WORK
+                        </a>
+                    </li>
+                    <li class="nav_mobile-list-item">
+                        <a href="about.html" class="nav_mobile-list-link">
+                            ABOUT
+                        </a>
+                    </li>
+                    <li class="nav_mobile-list-item">
+                        <a href="mailto:dpa35@drexel.edu;" target="blank" class="nav_mobile-list-link">
+                            CONTACT
+                        </a>
+                    </li>
+                </ul>
+                <div id="mobile-nav-close-button" class="mobile-nav_close-button-container">
+                    <img class="xbutton" src= "images/mainpages/xbutton.png"
+                    alt="x button">
+                 </div>
+            </nav>
+         </div>
+         <!-- desktop nav -->
+         <div class="nav_desktop">
+            <div class="nav_desktopcontainer">
+                <div class=" name_container">
+                    <a href="index.html">
+                        <h2 class="name">Durando Angiulo</h2>
+                    </a>
+                </div>
+                <ul class="nav_desktop-list">
+                    <li class="nav_desktop-list-item nav_desktop-list-item--text ">
+                        <a href="work.html" class="nav_desktop-list-link">
+                            WORK
+                        </a>
+                    </li>
+                    <li class="nav_desktop-list-item nav_desktop-list-item--text">
+                        <a href="about.html" class="nav_desktop-list-link">
+                            ABOUT
+                        </a>
+                    </li>
+                    <li class="nav_desktop-list-item">
+                        <button class="menu-contact_button" onclick="window.location.href='mailto:dpa35@drexel.edu';" target="blank">
+                            CONTACT
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class = "casestudywrapper">
         <div class= "casestudytitle_container">
             <h1 class="casestudy_titletext">
