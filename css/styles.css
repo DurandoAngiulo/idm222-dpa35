@@ -843,7 +843,7 @@ margin-bottom: 3.5rem;
     justify-content: center;
 }
 .casestudytitle_container{
-    margin: 2rem 0 3rem;
+    margin: 7rem 0 3rem;
     width: 100%;
     max-width: 1300px;  
 }
@@ -1191,6 +1191,10 @@ background-color: #215770;
     /* Casestudy selectors */
     .casestudywrapper{
         padding: 7% 10% 0;
+    }
+    .casestudytitle_container{
+        margin: 4rem 0 3rem;
+          
     }
     .casestudycontainer--bottom{
         margin-bottom: 0;
