@@ -622,14 +622,13 @@ animation: fadeIn .5s ease-in .25s forwards;
 
 }
 .workheader{
-    margin-top: 5rem;
-    margin: 5rem 10% 0;
+    margin: 3rem 10% 0;
 }
 
 .workheader_title{
-    margin-top: 4rem;
     font-size: 300%;
     font-weight: 600;
+    margin-bottom:1rem;
 }
 
 
