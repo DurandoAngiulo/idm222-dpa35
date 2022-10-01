@@ -978,7 +978,7 @@ margin-bottom: 1rem;
 
 
 
- /* DIFFEReNT COLORS home/work pic bgs */
+ /* DIFFERENT COLORS home/work pic bgs */
 .projectcontainer--green{
     background-image: linear-gradient(to right,#153617, #375f3f );   
 }
@@ -996,7 +996,9 @@ margin-bottom: 1rem;
     background-image: linear-gradient(to left,#7c7c7c, #8f8f8f );  
 }
 
-
+.projectcontainer--sw{ 
+    background-image:linear-gradient(to left,#382323, #1d1e2f );  
+}
 
 
 /* home/work BUTTON BG COLORS */
@@ -1012,6 +1014,10 @@ margin-bottom: 1rem;
 }
 .project_button--light{
     background-color: rgba(189, 185, 185, 0.7);
+}
+
+.project_button--sw{
+    background-color: rgba(72, 81, 104, 0.7);
 }
 
 
@@ -1031,6 +1037,9 @@ margin-bottom: 1rem;
 }
 .project_textcontainer--light{
     background-color: #a8a8a8;
+}
+.project_textcontainer--sw{
+    background-color: #2d2c34;
 }
 
 
@@ -1089,7 +1098,9 @@ background-color: #215770;
 .casestudy_imagecontainer--storm{
     background-color: #272b38;
     }
-
+.casestudy_imagecontainer--sw{
+    background-image:linear-gradient(to left,#382323, #1d1e2f );  
+        }
 
     
 @media screen and (min-width: 450px){
