@@ -976,7 +976,9 @@ margin-bottom: 1rem;
     height: 100%;
 }
 
-
+.secondparagraph{
+    margin-top: 1rem;
+}
 
  /* DIFFERENT COLORS home/work pic bgs */
 .projectcontainer--green{
@@ -999,6 +1001,9 @@ margin-bottom: 1rem;
 .projectcontainer--sw{ 
     background-image:linear-gradient(to left,#382323, #1d1e2f );  
 }
+.projectcontainer--drexel{ 
+    background-image:linear-gradient(to left,#363848, #10121f );  
+}
 
 
 /* home/work BUTTON BG COLORS */
@@ -1018,6 +1023,9 @@ margin-bottom: 1rem;
 
 .project_button--sw{
     background-color: rgba(72, 81, 104, 0.7);
+}
+.project_button--drexel{
+    background-color: rgba(101, 113, 142, 0.7);
 }
 
 
@@ -1040,6 +1048,9 @@ margin-bottom: 1rem;
 }
 .project_textcontainer--sw{
     background-color: #2d2c34;
+}
+.project_textcontainer--drexel{
+    background-color: #3c3d4c;
 }
 
 
