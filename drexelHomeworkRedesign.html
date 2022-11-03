@@ -1,277 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Drexel University Homework Site Redesign</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="nav">
-        <!-- mobile nav -->
-        <div class=" mobile_navcontainer 'mobile-nav-closed'">
-            <div class=" name_container">
-                <a href="index.html">
-                    <h2 class="name">Durando Angiulo</h2>
-                </a>
-            </div>
-             <!-- open button -->
-            <div id="mobile-nav-open-button" class="mobile-nav_button-container">
-                <img class= "menu_button" src="images/mainpages/menubutton.png"
-                alt="menu button">
-            </div>
-            <nav id="mobile-nav" class="mobile-dropdown">
-                <ul class="mobile_dropdown-list">
-                    <li class="nav_mobile-list-item">
-                        <a href="work.html" class="nav_mobile-list-link">
-                            WORK
-                        </a>
-                    </li>
-                    <li class="nav_mobile-list-item">
-                        <a href="about.html" class="nav_mobile-list-link">
-                            ABOUT
-                        </a>
-                    </li>
-                    <li class="nav_mobile-list-item">
-                        <a href="mailto:dpa35@drexel.edu;" target="blank" class="nav_mobile-list-link">
-                            CONTACT
-                        </a>
-                    </li>
-                </ul>
-                <div id="mobile-nav-close-button" class="mobile-nav_close-button-container">
-                    <img class="xbutton" src= "images/mainpages/xbutton.png"
-                    alt="x button">
-                 </div>
-            </nav>
-         </div>
-         <!-- desktop nav -->
-         <div class="nav_desktop">
-            <div class="nav_desktopcontainer">
-                <div class=" name_container">
-                    <a href="index.html">
-                        <h2 class="name">Durando Angiulo</h2>
-                    </a>
-                </div>
-                <ul class="nav_desktop-list">
-                    <li class="nav_desktop-list-item nav_desktop-list-item--text ">
-                        <a href="work.html" class="nav_desktop-list-link">
-                            WORK
-                        </a>
-                    </li>
-                    <li class="nav_desktop-list-item nav_desktop-list-item--text">
-                        <a href="about.html" class="nav_desktop-list-link">
-                            ABOUT
-                        </a>
-                    </li>
-                    <li class="nav_desktop-list-item">
-                        <button class="menu-contact_button" onclick="window.location.href='mailto:dpa35@drexel.edu';">
-                            CONTACT
-                        </button>
-                    </li>
-                </ul>
-            </div>
+      <!-- mobile nav -->
+      <div class="mobile_navcontainer 'mobile-nav-closed'">
+        <div class="name_container">
+          <a href="index.html">
+            <h2 class="name">Durando Angiulo</h2>
+          </a>
         </div>
+        <!-- open button -->
+        <div id="mobile-nav-open-button" class="mobile-nav_button-container">
+          <img
+            class="menu_button"
+            src="images/mainpages/menubutton.png"
+            alt="menu button"
+          />
+        </div>
+        <nav id="mobile-nav" class="mobile-dropdown">
+          <ul class="mobile_dropdown-list">
+            <li class="nav_mobile-list-item">
+              <a href="work.html" class="nav_mobile-list-link"> WORK </a>
+            </li>
+            <li class="nav_mobile-list-item">
+              <a href="about.html" class="nav_mobile-list-link"> ABOUT </a>
+            </li>
+            <li class="nav_mobile-list-item">
+              <a
+                href="mailto:dpa35@drexel.edu;"
+                target="blank"
+                class="nav_mobile-list-link"
+              >
+                CONTACT
+              </a>
+            </li>
+          </ul>
+          <div
+            id="mobile-nav-close-button"
+            class="mobile-nav_close-button-container"
+          >
+            <img
+              class="xbutton"
+              src="images/mainpages/xbutton.png"
+              alt="x button"
+            />
+          </div>
+        </nav>
+      </div>
+      <!-- desktop nav -->
+      <div class="nav_desktop">
+        <div class="nav_desktopcontainer">
+          <div class="name_container">
+            <a href="index.html">
+              <h2 class="name">Durando Angiulo</h2>
+            </a>
+          </div>
+          <ul class="nav_desktop-list">
+            <li class="nav_desktop-list-item nav_desktop-list-item--text">
+              <a href="work.html" class="nav_desktop-list-link"> WORK </a>
+            </li>
+            <li class="nav_desktop-list-item nav_desktop-list-item--text">
+              <a href="about.html" class="nav_desktop-list-link"> ABOUT </a>
+            </li>
+            <li class="nav_desktop-list-item">
+              <button
+                class="menu-contact_button"
+                onclick="window.location.href='mailto:dpa35@drexel.edu';"
+              >
+                CONTACT
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-    <div class= "casestudywrapper">
-        <div class= "casestudytitle_container">
-            <h1 class="casestudy_titletext">
-                Student Homework Site Redesign
-            </h1>
+    <div class="casestudywrapper">
+      <div class="casestudytitle_container">
+        <h1 class="casestudy_titletext">Student Homework Site Redesign</h1>
+      </div>
+      <div class="casestudycontainer">
+        <div
+          class="casestudy_imagecontainer--center casestudy_imagecontainer--drexelblue"
+        >
+          <picture>
+            <source
+              media="(min-width: 800px)"
+              srcset="
+                images/digitalculturalheritagecasestudy/drexellogo-medium.jpg
+              "
+            />
+            <source
+              media="(min-width: 0px)"
+              srcset="
+                images/digitalculturalheritagecasestudy/drexellogo-small.jpg
+              "
+            />
+            <img
+              class="casestudy_image"
+              src="images/digitalculturalheritagecasestudy/drexellogo-medium.jpg"
+              alt="drexel logo"
+            />
+          </picture>
         </div>
-        <div class= "casestudycontainer">
-            <div class= "casestudy_imagecontainer--center casestudy_imagecontainer--drexelblue">
-                <picture>
-                    <source media="(min-width: 800px)" srcset= "images/digitalculturalheritagecasestudy/drexellogo-medium.jpg" />
-                    <source media="(min-width: 0px)" srcset= "images/digitalculturalheritagecasestudy/drexellogo-small.jpg"   />
-                    <img class="casestudy_image" src= "images/digitalculturalheritagecasestudy/drexellogo-medium.jpg" 
-                    alt="drexel logo">
-                </picture>
-            </div>
-            <div class= "casestudy_textcontainer casestudy_textcontainer--first">
-                <p>
-                    A former professor reached out to me and a few other students work as a team under him to collaborate with the 
-                    redesign and development our major's (UXID) homework website. This site was currently being used 
-                    by all UXID(User Experience & Interaction Design) development courses as a way to reinforce
-                    new coding and development skills being taught in class.
-                </p>
-            </div>
+        <div class="casestudy_textcontainer casestudy_textcontainer--first">
+          <p>
+            A former professor reached out to me and a few other students work
+            as a team under him to collaborate with the redesign and development
+            our major's (UXID) homework website. This site was currently being
+            used by all UXID(User Experience & Interaction Design) development
+            courses as a way to reinforce new coding and development skills
+            being taught in class.
+          </p>
         </div>
-        <header class="headercontainer">
-            <div class= "pageborder"> </div>
-                <h1 class="header_parttitle">
-                    ANALYSIS
-                </h1>
-                <p class= "header_part">Part I</p>
-        </header>  
-        <div class= "casestudycontainer">
-            <div class= "casestudy_imagecontainer--center  casestudy_imagecontainer--storm">
-                <picture>
-                    <source media="(min-width: 800px)" srcset= "images/homeworkProject/oldsite-medium.png"/>
-                    <source media="(min-width: 0px)" srcset= "images/homeworkProject/oldsite-small.png"/>
-                    <img class="casestudy_image" src= "images/homeworkProject/oldsite-medium.png" 
-                    alt="site map">
-                </picture>
-            </div>
-            <div class= "casestudysectiontitle_container">
-                <h2 class= "casestudySectiontitle">
-                    <b>Breaking down</b> the Current Site
-                </h2>
-            </div>
-            <div class= "casestudy_textcontainer">
-                <p>
-                    The first thing our team was directed to do was break down the current homework site. We had all
-                    already used this site for previous classes and our goal was to look for things to improve and 
-                    fix with regards to functionality and aethetics.
-                </p>
-            </div>
-        </div>  
-        <header class="headercontainer">
-            <div class= "pageborder"> </div>
-                <h1 class= "header_parttitle">
-                    DESIGN
-                </h1>
-                <p class= "header_part">Part II</p>
-        </header>   
-        <div class= "casestudycontainer">
-            <div class= "casestudy_imagecontainer--center casestudy_imagecontainer--storm">
-                <picture>
-                    <source media="(min-width: 800px)" srcset= "images/homeworkProject/designSystem-medium.png"/>
-                    <source media="(min-width: 0px)" srcset= "images/homeworkProject/designSystem-small.png"/>
-                    <img class="casestudy_image" src= "images/homeworkProject/designSystem-medium.png" 
-                    alt="techradar weaknesses">
-                </picture>
-            </div>
-            <div class= "casestudysectiontitle_container">
-                <h2 class= "casestudySectiontitle">
-                    Creating a <b>Design System</b>
-                </h2>
-            </div>
-            <div class= "casestudy_textcontainer">
-                <p>
-                    Using Figma, our team then pooled all of our ideas, picking apart what we liked best from
-                    all of our concepts, and created a design system, covering everything from color &
-                    typography to iconography and page flow.
+      </div>
+      <header class="headercontainer">
+        <div class="pageborder"></div>
+        <h1 class="header_parttitle">ANALYSIS</h1>
+        <p class="header_part">Part I</p>
+      </header>
+      <div class="casestudycontainer">
+        <div
+          class="casestudy_imagecontainer--center casestudy_imagecontainer--storm"
+        >
+          <picture>
+            <source
+              media="(min-width: 800px)"
+              srcset="images/homeworkProject/oldsite-medium.png"
+            />
+            <source
+              media="(min-width: 0px)"
+              srcset="images/homeworkProject/oldsite-small.png"
+            />
+            <img
+              class="casestudy_image"
+              src="images/homeworkProject/oldsite-medium.png"
+              alt="site map"
+            />
+          </picture>
+        </div>
+        <div class="casestudysectiontitle_container">
+          <h2 class="casestudySectiontitle">
+            <b>Breaking down</b> the Current Site
+          </h2>
+        </div>
+        <div class="casestudy_textcontainer">
+          <p>
+            The first thing our team was directed to do was break down the
+            current homework site. We had all already used this site for
+            previous classes and our goal was to look for things to improve and
+            fix with regards to functionality and aethetics.
+          </p>
+        </div>
+      </div>
+      <header class="headercontainer">
+        <div class="pageborder"></div>
+        <h1 class="header_parttitle">DESIGN</h1>
+        <p class="header_part">Part II</p>
+      </header>
+      <div class="casestudycontainer">
+        <div
+          class="casestudy_imagecontainer--center casestudy_imagecontainer--storm"
+        >
+          <picture>
+            <source
+              media="(min-width: 800px)"
+              srcset="images/homeworkProject/designSystem-medium.png"
+            />
+            <source
+              media="(min-width: 0px)"
+              srcset="images/homeworkProject/designSystem-small.png"
+            />
+            <img
+              class="casestudy_image"
+              src="images/homeworkProject/designSystem-medium.png"
+              alt="techradar weaknesses"
+            />
+          </picture>
+        </div>
+        <div class="casestudysectiontitle_container">
+          <h2 class="casestudySectiontitle">Creating a <b>Design System</b></h2>
+        </div>
+        <div class="casestudy_textcontainer">
+          <p>
+            Using Figma, our team then pooled all of our ideas, picking apart
+            what we liked best from all of our concepts, and created a design
+            system, covering everything from color & typography to iconography
+            and page flow.
+          </p>
+        </div>
+      </div>
+      <div class="casestudycontainer">
+        <div
+          class="casestudy_imagecontainer--center casestudy_imagecontainer--storm"
+        >
+          <picture>
+            <source
+              media="(min-width: 800px)"
+              srcset="images/homeworkProject/highfi-medium.png"
+            />
+            <source
+              media="(min-width: 0px)"
+              srcset="images/homeworkProject/highfi-small.png"
+            />
+            <img
+              class="casestudy_image"
+              src="images/homeworkProject/highfi-medium.png"
+              alt="techradar weaknesses"
+            />
+          </picture>
+        </div>
+        <div class="casestudysectiontitle_container">
+          <h2 class="casestudySectiontitle">
+            Creating a <b>High-Fidelity Prototype</b>
+          </h2>
+        </div>
+        <div class="casestudy_textcontainer">
+          <p>
+            Next, the team put together our page structure making a hi-fidelity
+            prototype of what the new site pages would look like.
+          </p>
+        </div>
+      </div>
+      <header class="headercontainer">
+        <div class="pageborder"></div>
+        <h1 class="header_parttitle">DEVELOPMENT</h1>
+        <p class="header_part">Part III</p>
+      </header>
+      <div class="casestudycontainer">
+        <div
+          class="casestudy_imagecontainer--center casestudy_imagecontainer--storm"
+        >
+          <picture>
+            <source
+              media="(min-width: 800px)"
+              srcset="images/homeworkProject/react-medium.jpg"
+            />
+            <source
+              media="(min-width: 0px)"
+              srcset="images/homeworkProject/react-small.jpg"
+            />
+            <img
+              class="casestudy_image"
+              src="images/homeworkProject/react-medium.jpg"
+              alt="image1"
+            />
+          </picture>
+        </div>
+        <div class="casestudysectiontitle_container">
+          <h2 class="casestudySectiontitle">Developing<b> the Site</b></h2>
+        </div>
+        <div class="casestudy_textcontainer">
+          <p>
+            After the new Homework Site designs were approved by our professor,
+            with his oversight we then began working on the front end
+            develeopment using React, creating styled components for the site.
+            Prior to this assignment, none of the team had any React experience
+            so development was often an uphill battle as we were learning and
+            coding simultaniously. Luckily we still had our professor as an
+            additional resource when we were confused (which was often!).
+          </p>
+        </div>
+      </div>
+      <div class="casestudycontainer">
+        <div
+          class="casestudy_imagecontainer--center casestudy_imagecontainer--storm"
+        >
+          <a
+            href="https://homework-frontend-git-student-work-stable-drexel-uxid.vercel.app/"
+            target="_blank"
+          >
+            <picture>
+              <source
+                media="(min-width: 800px)"
+                srcset="images/homeworkProject/newSite-medium.png"
+              />
+              <source
+                media="(min-width: 0px)"
+                srcset="images/homeworkProject/newSite-small.png"
+              />
+              <img
+                class="casestudy_image"
+                src="images/homeworkProject/newSite-medium.png"
+                alt="image1"
+              />
+            </picture>
+          </a>
+        </div>
 
-                </p>
-            </div>
-        </div>  
-        <div class= "casestudycontainer">
-            <div class= "casestudy_imagecontainer--center casestudy_imagecontainer--storm">
-                <picture>
-                    <source media="(min-width: 800px)" srcset= "images/homeworkProject/highfi-medium.png"/>
-                    <source media="(min-width: 0px)" srcset= "images/homeworkProject/highfi-small.png"/>
-                    <img class="casestudy_image" src= "images/homeworkProject/highfi-medium.png" 
-                    alt="techradar weaknesses">
-                </picture>
-            </div>
-            <div class= "casestudysectiontitle_container">
-                <h2 class= "casestudySectiontitle">
-                    Creating a <b>High-Fidelity Prototype</b> 
-                </h2>
-            </div>
-            <div class= "casestudy_textcontainer">
-                <p>
-                    Next, the team put together our page structure making a hi-fidelity prototype 
-                    of what the new site pages would look like.  
-                </p>
-            </div>
-        </div>   
-        <header class="headercontainer">
-            <div class= "pageborder"> </div>
-                <h1 class= "header_parttitle">
-                    DEVELOPMENT
-                </h1>
-                <p class= "header_part">Part III</p>
-        </header> 
-        <div class= "casestudycontainer">
-            <div class= "casestudy_imagecontainer--center casestudy_imagecontainer--storm">
-                <picture>
-                    <source media="(min-width: 800px)" srcset="images/homeworkProject/react-medium.jpg" />
-                    <source media="(min-width: 0px)" srcset="images/homeworkProject/react-small.jpg" />
-                        <img class= "casestudy_image" src="images/homeworkProject/react-medium.jpg"
-                        alt= "image1">   
-                </picture>
-            </div>
-            <div class= "casestudysectiontitle_container">
-                <h2 class= "casestudySectiontitle">
-                    Developing<b> the Site</b>
-                </h2>
-            </div>
-            <div class= "casestudy_textcontainer">
-                <p>
-                    After the new Homework Site designs were approved by our professor, with his oversight we then began working
-                    on the front end develeopment using React, creating styled components for the site. Prior to this assignment, none of the
-                    team had any React experience so development was often an uphill battle as we were learning and coding 
-                    simultaniously. Luckily we still had our professor as an additional resource when we were confused (which was often!).
-                </p>
-            </div>
-        </div> 
-        <div class= "casestudycontainer">
-            <div class= "casestudy_imagecontainer--center  casestudy_imagecontainer--storm">
-                <a href="https://homework-frontend-git-student-work-stable-drexel-uxid.vercel.app/" target="_blank">
-                    <picture>
-                        <source media="(min-width: 800px)" srcset="images/homeworkProject/newSite-medium.png" />
-                        <source media="(min-width: 0px)" srcset="images/homeworkProject/newSite-small.png" />
-                            <img class= "casestudy_image" src="images/homeworkProject/newSite-medium.png"
-                            alt= "image1">   
-                    </picture>
-                </a> 
-            </div> 
-        
-        <div class= "casestudysectiontitle_container">
-            <h2 class= "casestudySectiontitle">
-                The <b>Final</b> Design
-            </h2>
+        <div class="casestudysectiontitle_container">
+          <h2 class="casestudySectiontitle">The <b>Final</b> Design</h2>
         </div>
-        <div class= "casestudy_textcontainer">
-            <p>
-                the team and our professor were all very happy with the final look of the site and what we were able to
-                accomplish having never coded in React before. 
-            </p> 
-            <p class= "secondparagraph">
-                Click the image to take a look and explore a stable build of final design of the new 
-                Homework website, all developed using React!
-                (The password to enter is 123456789)
-            </p>
+        <div class="casestudy_textcontainer">
+          <p>
+            the team and our professor were all very happy with the final look
+            of the site and what we were able to accomplish having never coded
+            in React before.
+          </p>
+          <p class="secondparagraph">
+            Click the image to take a look and explore a stable build of our
+            final designs of the new Homework website, all developed using
+            React! (The password to enter is 123456789)
+          </p>
         </div>
-    </div> 
+      </div>
     </div>
     <footer>
-        <div class="footer">
-            <div class="footer_buttoncontainer">
-                <button class="footer_button" onclick="window.location.href='mailto:dpa35@drexel.edu';">
-                    Let's Connect
-                </button>
-            </div>
-            <h4 class="footer_header">
-                Get in touch if you have a new project or 
-                just want to chat! :)
-            </h4>
-            <div class=" socialmedia_container">
-                <div class="socialmedia_imagecontainer">
-                    <a href="https://www.instagram.com/durando_angiulo/" target= "_blank">
-                        <img class="socialmedia_image" src="./images/mainpages/instagram.png" alt="instagram link" />
-                    </a>
-                </div>
-                <div class="socialmedia_imagecontainer">
-                    <a href="https://twitter.com/durandoangiulo?lang=en" target= "_blank">
-                        <img class="socialmedia_image" src="./images/mainpages/twitter.png" alt="instagram link" />
-                    </a>
-                </div>
-                <div class="socialmedia_imagecontainer">
-                    <a href="https://www.linkedin.com/in/durando-angiulo-971b57203" target= "_blank">
-                        <img class="socialmedia_image" src="./images/mainpages/linkdin.png" alt="instagram link" />
-                    </a>
-                </div>
-            </div>
-            <div class=" pageborder pageborder--white"></div>
-            <p class="footertext">
-                &copy; Durando Angiulo 2022
-            </p>
+      <div class="footer">
+        <div class="footer_buttoncontainer">
+          <button
+            class="footer_button"
+            onclick="window.location.href='mailto:dpa35@drexel.edu';"
+          >
+            Let's Connect
+          </button>
         </div>
+        <h4 class="footer_header">
+          Get in touch if you have a new project or just want to chat! :)
+        </h4>
+        <div class="socialmedia_container">
+          <div class="socialmedia_imagecontainer">
+            <a
+              href="https://www.instagram.com/durando_angiulo/"
+              target="_blank"
+            >
+              <img
+                class="socialmedia_image"
+                src="./images/mainpages/instagram.png"
+                alt="instagram link"
+              />
+            </a>
+          </div>
+          <div class="socialmedia_imagecontainer">
+            <a
+              href="https://twitter.com/durandoangiulo?lang=en"
+              target="_blank"
+            >
+              <img
+                class="socialmedia_image"
+                src="./images/mainpages/twitter.png"
+                alt="instagram link"
+              />
+            </a>
+          </div>
+          <div class="socialmedia_imagecontainer">
+            <a
+              href="https://www.linkedin.com/in/durando-angiulo-971b57203"
+              target="_blank"
+            >
+              <img
+                class="socialmedia_image"
+                src="./images/mainpages/linkdin.png"
+                alt="instagram link"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="pageborder pageborder--white"></div>
+        <p class="footertext">&copy; Durando Angiulo 2022</p>
+      </div>
     </footer>
-    <script src="main.js"> </script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
