@@ -1,150 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
     <nav class="nav">
-        <!-- mobile nav -->
-        <div class=" mobile_navcontainer 'mobile-nav-closed'">
-            <div class=" name_container">
-                <a href="index.html">
-                    <h2 class="name">Durando Angiulo</h2>
-                </a>
-            </div>
-             <!-- open button -->
-            <div id="mobile-nav-open-button" class="mobile-nav_button-container">
-                <img class= "menu_button" src="images/mainpages/menubutton.png"
-                alt="menu button">
-            </div>
-            <nav id="mobile-nav" class="mobile-dropdown">
-                <ul class="mobile_dropdown-list">
-                    <li class="nav_mobile-list-item">
-                        <a href="work.html" class="nav_mobile-list-link">
-                            WORK
-                        </a>
-                    </li>
-                    <li class="nav_mobile-list-item">
-                        <a href="about.html" class="nav_mobile-list-link">
-                            ABOUT
-                        </a>
-                    </li>
-                    <li class="nav_mobile-list-item">
-                        <a href="mailto:dpa35@drexel.edu;" target="blank" class="nav_mobile-list-link">
-                            CONTACT
-                        </a>
-                    </li>
-                </ul>
-                <div id="mobile-nav-close-button" class="mobile-nav_close-button-container">
-                    <img class="xbutton" src= "images/mainpages/xbutton.png"
-                    alt="x button">
-                 </div>
-            </nav>
-         </div>
-         <!-- desktop nav -->
-         <div class="nav_desktop">
-            <div class="nav_desktopcontainer">
-                <div class=" name_container">
-                    <a href="index.html">
-                        <h2 class="name">Durando Angiulo</h2>
-                    </a>
-                </div>
-                <ul class="nav_desktop-list">
-                    <li class="nav_desktop-list-item nav_desktop-list-item--text ">
-                        <a href="work.html" class="nav_desktop-list-link">
-                            WORK
-                        </a>
-                    </li>
-                    <li class="nav_desktop-list-item nav_desktop-list-item--text">
-                        <a href="about.html" class="nav_desktop-list-link">
-                            ABOUT
-                        </a>
-                    </li>
-                    <li class="nav_desktop-list-item">
-                        <button class="menu-contact_button" onclick="window.location.href='mailto:dpa35@drexel.edu';">
-                            CONTACT
-                        </button>
-                    </li>
-                </ul>
-            </div>
+      <!-- mobile nav -->
+      <div class="mobile_navcontainer 'mobile-nav-closed'">
+        <div class="name_container">
+          <a href="index.html">
+            <h2 class="name">Durando Angiulo</h2>
+          </a>
         </div>
+        <!-- open button -->
+        <div id="mobile-nav-open-button" class="mobile-nav_button-container">
+          <img
+            class="menu_button"
+            src="images/mainpages/menubutton.png"
+            alt="menu button"
+          />
+        </div>
+        <nav id="mobile-nav" class="mobile-dropdown">
+          <ul class="mobile_dropdown-list">
+            <li class="nav_mobile-list-item">
+              <a href="work.html" class="nav_mobile-list-link"> WORK </a>
+            </li>
+            <li class="nav_mobile-list-item">
+              <a href="about.html" class="nav_mobile-list-link"> ABOUT </a>
+            </li>
+            <li class="nav_mobile-list-item">
+              <a
+                href="mailto:dpa35@drexel.edu;"
+                target="blank"
+                class="nav_mobile-list-link"
+              >
+                CONTACT
+              </a>
+            </li>
+          </ul>
+          <div
+            id="mobile-nav-close-button"
+            class="mobile-nav_close-button-container"
+          >
+            <img
+              class="xbutton"
+              src="images/mainpages/xbutton.png"
+              alt="x button"
+            />
+          </div>
+        </nav>
+      </div>
+      <!-- desktop nav -->
+      <div class="nav_desktop">
+        <div class="nav_desktopcontainer">
+          <div class="name_container">
+            <a href="index.html">
+              <h2 class="name">Durando Angiulo</h2>
+            </a>
+          </div>
+          <ul class="nav_desktop-list">
+            <li class="nav_desktop-list-item nav_desktop-list-item--text">
+              <a href="work.html" class="nav_desktop-list-link"> WORK </a>
+            </li>
+            <li class="nav_desktop-list-item nav_desktop-list-item--text">
+              <a href="about.html" class="nav_desktop-list-link"> ABOUT </a>
+            </li>
+            <li class="nav_desktop-list-item">
+              <button
+                class="menu-contact_button"
+                onclick="window.location.href='mailto:dpa35@drexel.edu';"
+              >
+                CONTACT
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <!-- header-->
-    <div class= "header">
-        <picture>
-            <source media="(min-width: 1100px)" srcset="images/mainpages/aboutBanner-large.jpg"/>
-            <source media="(min-width: 600px)" srcset="images/mainpages/aboutBanner-medium.jpg"/>
-            <source media="(min-width: 0px)" srcset="images/mainpages/aboutBanner-small.jpg"/>
-            <img class="header_image header_image--about" src="./images/mainpages/aboutBanner-medium.jpg" alt="Durando bg" />
-        </picture>
+    <div class="header">
+      <picture>
+        <source
+          media="(min-width: 1100px)"
+          srcset="images/mainpages/aboutBanner-large.jpg"
+        />
+        <source
+          media="(min-width: 600px)"
+          srcset="images/mainpages/aboutBanner-medium.jpg"
+        />
+        <source
+          media="(min-width: 0px)"
+          srcset="images/mainpages/aboutBanner-small.jpg"
+        />
+        <img
+          class="header_image header_image--about"
+          src="./images/mainpages/aboutBanner-medium.jpg"
+          alt="Durando bg"
+        />
+      </picture>
     </div>
-    <div class= "workheader">
-        <h2 class="workheader_title">About Me</h2>
-        <div class="pageborder"></div>
+    <div class="workheader">
+      <h2 class="workheader_title">About Me</h2>
+      <div class="pageborder"></div>
     </div>
-    <div class= "aboutme_wrapper">
-        <div class="aboutme_container">
-            <p class="aboutme_description">
-                Hello! I'm Durando Angiulo, a student at Drexel University 
-                majoring in User Experience & Interaction Design. It’s my goal to work in Web Development or UX Design 
-                and I couldn’t be more excited about my 
-                future in this dynamic industry!  
-            </p>
-            <p class="aboutme_description">
-                For hobbies I love to ski and enjoy visiting 
-                and exploring new environments with my friends. 
-                I also like to play video/board games, read books,
-                and watch TV/Movies from the Science Fiction 
-                genre (I’m a big Star Wars nerd!). 
-            </p>
-            <p class= "experience">EXPERIENCE</p>
-            <ul class="list_experience">
-                <li>Web Development</li>
-                <li>UI/UX Design</li>
-                <li>Interaction Design</li>
-                <li>Art Direction</li>
-                <li>Heuristic Analysis/User Research</li>
-            </ul>
-            <a href="durandoangiuloresume.pdf" target="blank">
-                <p class="resume">View my Resume</p>
-            </a>
-        </div>
-      
-    
+    <div class="aboutme_wrapper">
+      <div class="aboutme_container">
+        <p class="aboutme_description">
+          Hello! I'm Durando Angiulo, a student at Drexel University majoring in
+          User Experience & Interaction Design with a focus in Software
+          Engineering. I love to code and I couldn’t be more excited about my
+          future in this dynamic industry!
+        </p>
+        <p class="experience">EXPERIENCE</p>
+        <ul class="list_experience">
+          <li>Web Development</li>
+          <li>Scripting</li>
+          <li>UI/UX Design</li>
+          <li>Interaction Design</li>
+          <li>Art Direction</li>
+          <li>Heuristic Analysis/User Research</li>
+        </ul>
+        <a href="durandoangiuloresume-Dev.pdf" target="blank">
+          <p class="resume">View my Resume</p>
+        </a>
+      </div>
     </div>
     <footer>
-        <div class="footer">
-            <div class="footer_buttoncontainer">
-                <button class="footer_button" onclick="window.location.href='mailto:dpa35@drexel.edu';">
-                    Let's Connect
-                </button>
-            </div>
-            <h4 class="footer_header">
-                Get in touch if you have a new project or 
-                just want to chat! :)
-            </h4>
-            <div class=" socialmedia_container">
-                <div class="socialmedia_imagecontainer">
-                    <img class="socialmedia_image" src="./images/mainpages/instagram.png" alt="instagram link" />
-                </div>
-                <div class="socialmedia_imagecontainer">
-                    <img class="socialmedia_image" src="./images/mainpages/twitter.png" alt="instagram link" />
-                </div>
-                <div class="socialmedia_imagecontainer">
-                    <img class="socialmedia_image" src="./images/mainpages/linkdin.png" alt="instagram link" />
-                </div>
-            </div>
-            <div class=" pageborder pageborder--white"></div>
-            <p class="footertext">
-                &copy; Durando Angiulo 2022
-            </p>
+      <div class="footer">
+        <div class="footer_buttoncontainer">
+          <button
+            class="footer_button"
+            onclick="window.location.href='mailto:dpa35@drexel.edu';"
+          >
+            Let's Connect
+          </button>
         </div>
+        <h4 class="footer_header">
+          Get in touch if you have a new project or just want to chat! :)
+        </h4>
+        <div class="socialmedia_container">
+          <div class="socialmedia_imagecontainer">
+            <img
+              class="socialmedia_image"
+              src="./images/mainpages/instagram.png"
+              alt="instagram link"
+            />
+          </div>
+          <div class="socialmedia_imagecontainer">
+            <img
+              class="socialmedia_image"
+              src="./images/mainpages/twitter.png"
+              alt="instagram link"
+            />
+          </div>
+          <div class="socialmedia_imagecontainer">
+            <img
+              class="socialmedia_image"
+              src="./images/mainpages/linkdin.png"
+              alt="instagram link"
+            />
+          </div>
+        </div>
+        <div class="pageborder pageborder--white"></div>
+        <p class="footertext">&copy; Durando Angiulo 2022</p>
+      </div>
     </footer>
-    <script src="main.js"> </script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
