@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Epic Games Store Microinteraction Redesign</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <!-- mobile nav -->
+      <div class="mobile_navcontainer 'mobile-nav-closed'">
+        <div class="name_container">
+          <a href="index.html">
+            <h2 class="name">Durando Angiulo</h2>
+          </a>
+        </div>
+        <!-- open button -->
+        <div id="mobile-nav-open-button" class="mobile-nav_button-container">
+          <img
+            class="menu_button"
+            src="images/mainpages/menubutton.png"
+            alt="menu button"
+          />
+        </div>
+        <nav id="mobile-nav" class="mobile-dropdown">
+          <ul class="mobile_dropdown-list">
+            <li class="nav_mobile-list-item">
+              <a href="work.html" class="nav_mobile-list-link"> WORK </a>
+            </li>
+            <li class="nav_mobile-list-item">
+              <a href="about.html" class="nav_mobile-list-link"> ABOUT </a>
+            </li>
+            <li class="nav_mobile-list-item">
+              <a
+                href="mailto:dpa35@drexel.edu;"
+                target="blank"
+                class="nav_mobile-list-link"
+              >
+                CONTACT
+              </a>
+            </li>
+          </ul>
+          <div
+            id="mobile-nav-close-button"
+            class="mobile-nav_close-button-container"
+          >
+            <img
+              class="xbutton"
+              src="images/mainpages/xbutton.png"
+              alt="x button"
+            />
+          </div>
+        </nav>
+      </div>
+      <!-- desktop nav -->
+      <div class="nav_desktop">
+        <div class="nav_desktopcontainer">
+          <div class="name_container">
+            <a href="index.html">
+              <h2 class="name">Durando Angiulo</h2>
+            </a>
+          </div>
+          <ul class="nav_desktop-list">
+            <li class="nav_desktop-list-item nav_desktop-list-item--text">
+              <a href="work.html" class="nav_desktop-list-link"> WORK </a>
+            </li>
+            <li class="nav_desktop-list-item nav_desktop-list-item--text">
+              <a href="about.html" class="nav_desktop-list-link"> ABOUT </a>
+            </li>
+            <li class="nav_desktop-list-item">
+              <button
+                class="menu-contact_button"
+                onclick="window.location.href='mailto:dpa35@drexel.edu';"
+              >
+                CONTACT
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="casestudywrapper">
+      <div class="casestudytitle_container">
+        <h1 class="casestudy_titletext">
+          Epic Games Store Microinteraction Redesign
+        </h1>
+      </div>
+      <div class="casestudycontainer">
+        <div
+          class="casestudy_imagecontainer--center casestudy_imagecontainer--epicgames"
+        >
+          <picture>
+            <source
+              media="(min-width: 800px)"
+              srcset="images/epicgamesmicrointeraction/Epic_Games_logo-md.svg"
+            />
+            <source
+              media="(min-width: 0px)"
+              srcset="images/epicgamesmicrointeraction/Epic_Games_logo-sm.svg"
+            />
+            <img
+              class="casestudy_image"
+              src="images/epicgamesmicrointeraction/Epic_Games_logo-md.svg"
+              alt="epic games logo"
+            />
+          </picture>
+        </div>
+        <div class="casestudy_textcontainer casestudy_textcontainer--first">
+          <p>
+            For this term-long project, I was assigned to create a complex
+            multi-level microinteraction using HTML, CSS, and Javascript to
+            improve upon an existing microinteraction on a live site. I chose
+            the Epic Games Store page as my site and decided to improve upon the
+            game list section(where all the games are listed for purchase).
+            Currently, when you click on a game, the site takes you to a new
+            page with all the game information on it.
+          </p>
+          <p class="secondparagraph">
+            My goal was to replace this simple interaction with a complex
+            three-tiered microinteraction:
+          </p>
+          <ul>
+            <li>
+              Firstly, I wanted to implement a hover state so that when a user
+              hovers on a game, it grows slightly with an information box fading
+              in over it from the bottom.
+            </li>
+            <li>
+              Secondly, to create hover states on certain icons of the
+              information box that grow and change opacity when hovering over
+              them.
+            </li>
+            <li>
+              And finally, on clicking one of these icons (an info button), to
+              fade in a bigger modal on top of the the page with a reduced store
+              page for the game where a user can get more information and
+              buy/add it to their cart.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <header class="headercontainer">
+        <div class="pageborder"></div>
+        <h1 class="header_parttitle">PROCESS & INSIGHT</h1>
+        <p class="header_part">Part I</p>
+      </header>
+      <div class="casestudycontainer">
+        <div
+          class="casestudy_imagecontainer--center casestudy_imagecontainer--epicgames"
+        >
+          <a
+            href="http://durandoangiulo.com/IDM241/alpha/build"
+            target="_blank"
+          >
+            <picture>
+              <source
+                media="(min-width: 800px)"
+                srcset="images/epicgamesmicrointeraction/alpha-md.png"
+              />
+              <source
+                media="(min-width: 0px)"
+                srcset="images/epicgamesmicrointeraction/alpha-sm.png"
+              />
+              <img
+                class="casestudy_image"
+                src="images/epicgamesmicrointeraction/alpha-md.png"
+                alt="alpha"
+              />
+            </picture>
+          </a>
+        </div>
+        <div class="casestudysectiontitle_container">
+          <h2 class="casestudySectiontitle"><b>Alpha</b> Build</h2>
+        </div>
+        <div class="casestudy_textcontainer">
+          <p>
+            When I started working on this project, I mainly broke it down and
+            completed it in pieces, starting with my Alpha Build. This build
+            included creating a successful hover state on one image so that it
+            grew 20% bigger and its info box came up inside it. Before I even
+            started coding anything, I made a brief design system using Epic’s
+            site typography and colors and wireframed out my animation flow in
+            figma to keep myself on track as I started development.
+          </p>
+          <p class="secondparagraph">
+            Next I began coding my first iteration of my microinteraction. The
+            HTML and CSS didn’t take long and I also used Bootstrap along the
+            way to make my styling go faster. When it came time to actually
+            animating everything, I used a plug-in called anime.js in my
+            Javascript to implement the clean expand effect I was looking for in
+            my image hover state. After finishing my Alpha Build, I made some
+            additional edits to my animation timing based on feedback I received
+            from my class critique.
+          </p>
+          <p class="secondparagraph">
+            Click the image above to interact with my Alpha Build!
+          </p>
+        </div>
+      </div>
+      <div class="casestudycontainer">
+        <div
+          class="casestudy_imagecontainer--center casestudy_imagecontainer--epicgames"
+        >
+          <a href="http://durandoangiulo.com/IDM241/beta/build" target="_blank">
+            <picture>
+              <source
+                media="(min-width: 800px)"
+                srcset="images/epicgamesmicrointeraction/beta-md.png"
+              />
+              <source
+                media="(min-width: 0px)"
+                srcset="images/epicgamesmicrointeraction/beta-sm.png"
+              />
+              <img
+                class="casestudy_image"
+                src="images/epicgamesmicrointeraction/beta-md.png"
+                alt="beta"
+              />
+            </picture>
+          </a>
+        </div>
+        <div class="casestudysectiontitle_container">
+          <h2 class="casestudySectiontitle"><b>Beta</b> Build</h2>
+        </div>
+        <div class="casestudy_textcontainer">
+          <p>
+            For my beta build, I mainly expanded on my alpha by giving every
+            image a hover state. I also created my second level microinteraction
+            in this build, populating my fade-in text boxes with information
+            about their respective game, and with certain elements that on hover
+            would also expand and change opacity.
+          </p>
+          <p class="secondparagraph">
+            What I struggled most with this time around was using Javascript to
+            correctly chain all my hover animations to the same function. Doing
+            some research, I ended up using For Each loops in my event listeners
+            as well as element.children to overcome this challenge. Once again,
+            during class critique I received feedback from my peers and
+            professor and made some minor tweaks to the look and feel of my
+            microinteractions.
+          </p>
+          <p class="secondparagraph">
+            Click the image above to interact with my Beta Build!
+          </p>
+        </div>
+      </div>
+      <header class="headercontainer">
+        <div class="pageborder"></div>
+        <h1 class="header_parttitle">FINAL MICROINTERACTION PROTOTYPE</h1>
+        <p class="header_part">Part II</p>
+      </header>
+      <div class="casestudycontainer">
+        <div
+          class="casestudy_imagecontainer--center casestudy_imagecontainer--epicgamestwo"
+        >
+          <a
+            href="http://durandoangiulo.com/IDM241/final/build"
+            target="_blank"
+          >
+            <picture>
+              <source
+                media="(min-width: 800px)"
+                srcset="images/epicgamesmicrointeraction/final-md.png"
+              />
+              <source
+                media="(min-width: 0px)"
+                srcset="images/epicgamesmicrointeraction/final-sm.png"
+              />
+              <img
+                class="casestudy_image"
+                src="images/epicgamesmicrointeraction/final-md.png"
+                alt="final"
+              />
+            </picture>
+          </a>
+        </div>
+
+        <div class="casestudysectiontitle_container">
+          <h2 class="casestudySectiontitle"><b>Final</b> Build</h2>
+        </div>
+        <div class="casestudy_textcontainer">
+          <p>
+            To finish off my microinteraction for my final build, I added an
+            interactable modal that appears when a user clicks on the info
+            button that shows up when a game image is hovered on. This modal is
+            complete with a more detailed description about the game, other
+            hoverable buttons such as “Add to Cart” & “Buy Now”, and an image
+            that turns into a gif when hovered on. To exit this modal, users
+            simply need to click on the X button in the top right corner and the
+            interaction will revert back to its start state.
+          </p>
+          <p class="secondparagraph">
+            Click the image above to interact with my Final Build!
+          </p>
+        </div>
+        <div class="casestudysectiontitle_container">
+          <h2 class="casestudySectiontitle">Project <b>Reflection</b></h2>
+        </div>
+        <div class="casestudy_textcontainer">
+          <p>
+            I am very proud of how my final interaction turned out. During the
+            course of this project I learned many new skills and successfully
+            persevered when things got tough. And while there are still some
+            future things i'd like to fix for this microinteraction such as the
+            X button spacing and image to Gif hover lag, in the end I feel that
+            I accomplished my goal and significantly improved upon the original
+            interaction present on the Epic Games Store Page.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <div class="footer_buttoncontainer">
+          <button
+            class="footer_button"
+            onclick="window.location.href='mailto:dpa35@drexel.edu';"
+          >
+            Let's Connect
+          </button>
+        </div>
+        <h4 class="footer_header">
+          Get in touch if you have a new project or just want to chat! :)
+        </h4>
+        <div class="socialmedia_container">
+          <div class="socialmedia_imagecontainer">
+            <a
+              href="https://www.instagram.com/durando_angiulo/"
+              target="_blank"
+            >
+              <img
+                class="socialmedia_image"
+                src="./images/mainpages/instagram.png"
+                alt="instagram link"
+              />
+            </a>
+          </div>
+          <div class="socialmedia_imagecontainer">
+            <a
+              href="https://twitter.com/durandoangiulo?lang=en"
+              target="_blank"
+            >
+              <img
+                class="socialmedia_image"
+                src="./images/mainpages/twitter.png"
+                alt="instagram link"
+              />
+            </a>
+          </div>
+          <div class="socialmedia_imagecontainer">
+            <a
+              href="https://www.linkedin.com/in/durando-angiulo-971b57203"
+              target="_blank"
+            >
+              <img
+                class="socialmedia_image"
+                src="./images/mainpages/linkdin.png"
+                alt="instagram link"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="pageborder pageborder--white"></div>
+        <p class="footertext">&copy; Durando Angiulo 2022</p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

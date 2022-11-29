@@ -1,350 +1,513 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Work</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
     <nav class="nav">
-        <!-- mobile nav -->
-        <div class=" mobile_navcontainer 'mobile-nav-closed'">
-            <div class=" name_container">
-                <a href="index.html">
-                    <h2 class="name">Durando Angiulo</h2>
-                </a>
-            </div>
-             <!-- open button -->
-            <div id="mobile-nav-open-button" class="mobile-nav_button-container">
-                <img class= "menu_button" src="images/mainpages/menubutton.png"
-                alt="menu button">
-            </div>
-            <nav id="mobile-nav" class="mobile-dropdown">
-                <ul class="mobile_dropdown-list">
-                    <li class="nav_mobile-list-item">
-                        <a href="work.html" class="nav_mobile-list-link">
-                            WORK
-                        </a>
-                    </li>
-                    <li class="nav_mobile-list-item">
-                        <a href="about.html" class="nav_mobile-list-link">
-                            ABOUT
-                        </a>
-                    </li>
-                    <li class="nav_mobile-list-item">
-                        <a href="mailto:dpa35@drexel.edu;" target="blank" class="nav_mobile-list-link">
-                            CONTACT
-                        </a>
-                    </li>
-                </ul>
-                <div id="mobile-nav-close-button" class="mobile-nav_close-button-container">
-                    <img class="xbutton" src= "images/mainpages/xbutton.png"
-                    alt="x button">
-                 </div>
-            </nav>
-         </div>
-         <!-- desktop nav -->
-         <div class="nav_desktop">
-            <div class="nav_desktopcontainer">
-                <div class=" name_container">
-                    <a href="index.html">
-                        <h2 class="name">Durando Angiulo</h2>
-                    </a>
-                </div>
-                <ul class="nav_desktop-list">
-                    <li class="nav_desktop-list-item nav_desktop-list-item--text ">
-                        <a href="work.html" class="nav_desktop-list-link">
-                            WORK
-                        </a>
-                    </li>
-                    <li class="nav_desktop-list-item nav_desktop-list-item--text">
-                        <a href="about.html" class="nav_desktop-list-link">
-                            ABOUT
-                        </a>
-                    </li>
-                    <li class="nav_desktop-list-item">
-                        <button class="menu-contact_button" onclick="window.location.href='mailto:dpa35@drexel.edu';">
-                            CONTACT
-                        </button>
-                    </li>
-                </ul>
-            </div>
+      <!-- mobile nav -->
+      <div class="mobile_navcontainer 'mobile-nav-closed'">
+        <div class="name_container">
+          <a href="index.html">
+            <h2 class="name">Durando Angiulo</h2>
+          </a>
         </div>
+        <!-- open button -->
+        <div id="mobile-nav-open-button" class="mobile-nav_button-container">
+          <img
+            class="menu_button"
+            src="images/mainpages/menubutton.png"
+            alt="menu button"
+          />
+        </div>
+        <nav id="mobile-nav" class="mobile-dropdown">
+          <ul class="mobile_dropdown-list">
+            <li class="nav_mobile-list-item">
+              <a href="work.html" class="nav_mobile-list-link"> WORK </a>
+            </li>
+            <li class="nav_mobile-list-item">
+              <a href="about.html" class="nav_mobile-list-link"> ABOUT </a>
+            </li>
+            <li class="nav_mobile-list-item">
+              <a
+                href="mailto:dpa35@drexel.edu;"
+                target="blank"
+                class="nav_mobile-list-link"
+              >
+                CONTACT
+              </a>
+            </li>
+          </ul>
+          <div
+            id="mobile-nav-close-button"
+            class="mobile-nav_close-button-container"
+          >
+            <img
+              class="xbutton"
+              src="images/mainpages/xbutton.png"
+              alt="x button"
+            />
+          </div>
+        </nav>
+      </div>
+      <!-- desktop nav -->
+      <div class="nav_desktop">
+        <div class="nav_desktopcontainer">
+          <div class="name_container">
+            <a href="index.html">
+              <h2 class="name">Durando Angiulo</h2>
+            </a>
+          </div>
+          <ul class="nav_desktop-list">
+            <li class="nav_desktop-list-item nav_desktop-list-item--text">
+              <a href="work.html" class="nav_desktop-list-link"> WORK </a>
+            </li>
+            <li class="nav_desktop-list-item nav_desktop-list-item--text">
+              <a href="about.html" class="nav_desktop-list-link"> ABOUT </a>
+            </li>
+            <li class="nav_desktop-list-item">
+              <button
+                class="menu-contact_button"
+                onclick="window.location.href='mailto:dpa35@drexel.edu';"
+              >
+                CONTACT
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <!-- header-->
-    <div class= "header">
-        <div class= "centerheader_content">
-            <h1 class="centerheader_title">Take a Glance at what I'm Doing...</h1>
+    <div class="header">
+      <div class="centerheader_content">
+        <h1 class="centerheader_title">Take a Glance at what I'm Doing...</h1>
+      </div>
+      <picture>
+        <source
+          media="(min-width: 1100px)"
+          srcset="images/mainpages/workbg-large.jpg"
+        />
+        <source
+          media="(min-width: 600px)"
+          srcset="images/mainpages/workbg-medium.jpg"
+        />
+        <source
+          media="(min-width: 0px)"
+          srcset="images/mainpages/workbg-small.jpg"
+        />
+        <img
+          class="header_image header_image--work"
+          src="./images/mainpages/workbg-medium.jpg"
+          alt="Durando bg"
+        />
+      </picture>
+    </div>
+    <div class="workheader">
+      <h2 class="workheader_title">Project Gallery</h2>
+      <div class="pageborder"></div>
+    </div>
+    <div class="projectswrapper">
+      <div class="projectcontainer projectcontainer--epic">
+        <div class="project_imagecontainer">
+          <picture class="picture_container">
+            <source
+              media="(min-width: 1080px)"
+              srcset="images/epicgamesmicrointeraction/beta-md.png"
+            />
+            <source
+              media="(min-width: 500px)"
+              srcset="images/epicgamesmicrointeraction/beta-md.png"
+            />
+            <source
+              media="(min-width: 0px)"
+              srcset="images/epicgamesmicrointeraction/beta-sm.png"
+            />
+            <img
+              class="projectimage"
+              src="images/epicgamesmicrointeraction/beta-md.png"
+              alt="Epic Games Project"
+            />
+          </picture>
         </div>
-        <picture>
-            <source media="(min-width: 1100px)" srcset="images/mainpages/workbg-large.jpg"/>
-            <source media="(min-width: 600px)" srcset="images/mainpages/workbg-medium.jpg"/>
-            <source media="(min-width: 0px)" srcset="images/mainpages/workbg-small.jpg"/>
-            <img class="header_image header_image--work" src="./images/mainpages/workbg-medium.jpg" alt="Durando bg" />
-        </picture>
-    </div>
-    <div class= "workheader">
-        <h2 class="workheader_title">Project Gallery</h2>
-        <div class="pageborder"></div>
-    </div>
-    <div class= "projectswrapper">
+        <div class="project_textcontainer project_textcontainer--dark">
+          <h2 class="project_title">Epic Games Microinteraction Redesign</h2>
+          <p class="description">
+            I reimagined the game click action currently on the Epic Games Store
+            for thier products and created a complex multi-level
+            microinteraction protoype using HTML, CSS, and JavaScript
+          </p>
+          <div class="project_buttoncontainer">
+            <a class="link" href="epic_games_microinteraction_redesign.html">
+              <div class="project_button project_button--dark">
+                <p class="link">View Project</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="projectcontainer projectcontainer--sw">
+        <div class="project_imagecontainer">
+          <picture class="picture_container">
+            <source
+              media="(min-width: 1080px)"
+              srcset="images/mainpages/homeworkProjectHeader-large.png"
+            />
+            <source
+              media="(min-width: 500px)"
+              srcset="images/mainpages/homeworkProjectHeader-medium.png"
+            />
+            <source
+              media="(min-width: 0px)"
+              srcset="images/mainpages/homeworkProjectHeader-small.png"
+            />
+            <img
+              class="projectimage"
+              src="mages/mainpages/homeworkProjectHeader-medium.png"
+              alt="sw project"
+            />
+          </picture>
+        </div>
+        <div class="project_textcontainer project_textcontainer--sw">
+          <h2 class="project_title">Student Homework Site Redesign</h2>
+          <p class="description">
+            Take a look at a group project where me and some other classmates
+            helped redesign one of Drexel University's Homework practice
+            interfaces
+          </p>
+          <div class="project_buttoncontainer">
+            <a class="link" href="drexelHomeworkRedesign.html">
+              <div class="project_button project_button--sw">
+                <p class="link">View Project</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="projectswrapper">
         <div class="projectcontainer projectcontainer--sw">
-            <div class="project_imagecontainer">
-                <picture class="picture_container">
-                    <source media="(min-width: 1080px)" srcset="images/mainpages/homeworkProjectHeader-large.png" />
-                    <source media="(min-width: 500px)" srcset="images/mainpages/homeworkProjectHeader-medium.png" />
-                    <source media="(min-width: 0px)" srcset="images/mainpages/homeworkProjectHeader-small.png" />
-                    <img class="projectimage" src= "mages/mainpages/homeworkProjectHeader-medium.png" 
-                    alt="sw project">
-                </picture>
-            </div>
-            <div class="project_textcontainer project_textcontainer--sw">
-                <h2 class="project_title">
-                    Student Homework Site Redesign
-                </h2>
-                <p class="description">
-                    Take a look at a group project where me and
-                    some other classmates helped redesign one of Drexel 
-                    University's Homework practice interfaces
-                </p>  
-                <div class= "project_buttoncontainer">
-                    <a  class="link" href="drexelHomeworkRedesign.html">
-                        <div class= "project_button project_button--sw">
-                          <p class="link">View Project</p> 
-                        </div>
-                    </a>
+          <div class="project_imagecontainer">
+            <picture class="picture_container">
+              <source
+                media="(min-width: 1080px)"
+                srcset="images/mainpages/swHeader-large.png"
+              />
+              <source
+                media="(min-width: 500px)"
+                srcset="images/mainpages/swHeader-medium.png"
+              />
+              <source
+                media="(min-width: 0px)"
+                srcset="images/mainpages/swHeader-small.png"
+              />
+              <img
+                class="projectimage"
+                src="mages/mainpages/swHeader-medium.png"
+                alt="sw project"
+              />
+            </picture>
+          </div>
+          <div class="project_textcontainer project_textcontainer--sw">
+            <h2 class="project_title"><i>Star Wars</i> Zodic Webpage</h2>
+            <p class="description">
+              For a class project, I created a functional responsive Zodiac
+              website from scratch using HTML CSS & JavaScript!
+            </p>
+            <div class="project_buttoncontainer">
+              <a class="link" href="project_horoscope.html">
+                <div class="project_button project_button--sw">
+                  <p class="link">View Project</p>
                 </div>
+              </a>
             </div>
-        </div> 
-    <div class= "projectswrapper">
-        <div class="projectcontainer projectcontainer--sw">
-            <div class="project_imagecontainer">
-                <picture class="picture_container">
-                    <source media="(min-width: 1080px)" srcset="images/mainpages/swHeader-large.png" />
-                    <source media="(min-width: 500px)" srcset="images/mainpages/swHeader-medium.png" />
-                    <source media="(min-width: 0px)" srcset="images/mainpages/swHeader-small.png" />
-                    <img class="projectimage" src= "mages/mainpages/swHeader-medium.png" 
-                    alt="sw project">
-                </picture>
-            </div>
-            <div class="project_textcontainer project_textcontainer--sw">
-                <h2 class="project_title">
-                    <i>Star Wars</i> Zodic Webpage
-                </h2>
-                <p class="description">
-                    For a class project, I created a functional responsive Zodiac website from 
-                    scratch using HTML CSS & JavaScript!
-                </p>  
-                <div class= "project_buttoncontainer">
-                    <a  class="link" href="project_horoscope.html">
-                        <div class= "project_button project_button--sw">
-                          <p class="link">View Project</p> 
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div> 
+          </div>
+        </div>
         <div class="projectcontainer">
-            <div class="project_imagecontainer">
-                <picture class="picture_container">
-                    <source media="(min-width: 1080px)" srcset="images/mainpages/ricochetBanner-large.jpg" />
-                    <source media="(min-width: 500px)" srcset="images/mainpages/ricochetBanner-medium.jpg" />
-                    <source media="(min-width: 0px)" srcset="images/mainpages/ricochetBanner-small.jpg" />
-                    <img class="projectimage" src= "images/mainpages/ricochetBanner-medium.jpg" 
-                    alt="Ricochet Project">
-                </picture>
-            </div>
-            <div class="project_textcontainer">
-                <h2 class="project_title">
-                    Working for Ricochet
-                </h2>
-                <p class="description">
-                    Take a glance at some of the Web and Graphic Design 
-                    projects I completed for a Cryptocurrency Investment
-                    company over the course of Fall 2021.
-                </p>  
-                <div class= "project_buttoncontainer">
-                    <a  class="link" href="casestudy_Ricochet.html">
-                        <div class= "project_button">
-                          <p class="link">View Project</p> 
-                        </div>
-                    </a>
+          <div class="project_imagecontainer">
+            <picture class="picture_container">
+              <source
+                media="(min-width: 1080px)"
+                srcset="images/mainpages/ricochetBanner-large.jpg"
+              />
+              <source
+                media="(min-width: 500px)"
+                srcset="images/mainpages/ricochetBanner-medium.jpg"
+              />
+              <source
+                media="(min-width: 0px)"
+                srcset="images/mainpages/ricochetBanner-small.jpg"
+              />
+              <img
+                class="projectimage"
+                src="images/mainpages/ricochetBanner-medium.jpg"
+                alt="Ricochet Project"
+              />
+            </picture>
+          </div>
+          <div class="project_textcontainer">
+            <h2 class="project_title">Working for Ricochet</h2>
+            <p class="description">
+              Take a glance at some of the Web and Graphic Design projects I
+              completed for a Cryptocurrency Investment company over the course
+              of Fall 2021.
+            </p>
+            <div class="project_buttoncontainer">
+              <a class="link" href="casestudy_Ricochet.html">
+                <div class="project_button">
+                  <p class="link">View Project</p>
                 </div>
+              </a>
             </div>
-        </div> 
+          </div>
+        </div>
         <div class="projectcontainer projectcontainer--green">
-            <div class="project_imagecontainer">
-                <picture class="picture_container">
-                    <source media="(min-width: 1080px)" srcset="images/mainpages/digHer-large.png" />
-                    <source media="(min-width: 500px)" srcset="images/mainpages/digHer-medium.png" />
-                    <source media="(min-width: 0px)" srcset="images/mainpages/digHer-small.png" />
-                    <img class="projectimage" src= "images/mainpages/digHer-medium.png" 
-                    alt="Digital Cultiral Heritage Project">
-                </picture>
-            </div>
-            <div class="project_textcontainer project_textcontainer--green">
-                <h2 class="project_title">
-                    Digital Cultural Hertiage Site Construction
-                </h2>
-                <p class="description">
-                    I participated in a university paid internship where I built a new 
-                    website to showcase Drexel student/faculty work and research in the filed 
-                    of Digital Cultural Heritage
-                </p>  
-                <div class= "project_buttoncontainer">
-                    <a class="link" href="casestudy_DigitalCulturalHeritage.html">
-                        <div class= "project_button project_button--green">
-                            <p class="link"> View Project</p>
-                        </div>
-                    </a> 
+          <div class="project_imagecontainer">
+            <picture class="picture_container">
+              <source
+                media="(min-width: 1080px)"
+                srcset="images/mainpages/digHer-large.png"
+              />
+              <source
+                media="(min-width: 500px)"
+                srcset="images/mainpages/digHer-medium.png"
+              />
+              <source
+                media="(min-width: 0px)"
+                srcset="images/mainpages/digHer-small.png"
+              />
+              <img
+                class="projectimage"
+                src="images/mainpages/digHer-medium.png"
+                alt="Digital Cultiral Heritage Project"
+              />
+            </picture>
+          </div>
+          <div class="project_textcontainer project_textcontainer--green">
+            <h2 class="project_title">
+              Digital Cultural Hertiage Site Construction
+            </h2>
+            <p class="description">
+              I participated in a university paid internship where I built a new
+              website to showcase Drexel student/faculty work and research in
+              the filed of Digital Cultural Heritage
+            </p>
+            <div class="project_buttoncontainer">
+              <a class="link" href="casestudy_DigitalCulturalHeritage.html">
+                <div class="project_button project_button--green">
+                  <p class="link">View Project</p>
                 </div>
+              </a>
             </div>
+          </div>
         </div>
         <div class="projectcontainer projectcontainer--storm">
-            <div class="project_imagecontainer">
-                <picture class="picture_container">
-                    <source media="(min-width: 1080px)" srcset="images/mainpages/cloudcoverBanner-large.png" />
-                    <source media="(min-width: 500px)" srcset="images/mainpages/cloudcoverBanner-medium.png" />
-                    <source media="(min-width: 0px)" srcset="images/mainpages/cloudcoverBanner-small.png" />
-                    <img class="projectimage" src= "images/mainpages/cloudcoverBanner-medium.png" 
-                    alt="Nord VPN Project">
-                </picture>
-            </div>
-            <div class="project_textcontainer project_textcontainer--storm">
-                <h2 class="project_title">
-                    Nord VPN App Rebranding
-                </h2>
-                <p class="description">
-                    I analyzed Nord VPN’s mobile interface to rebrand the app under a
-                    new name, visual style, and new microinteractions I animated
-                </p>  
-                <div class= "project_buttoncontainer">
-                    <a class="link" href="casestudy_nord.html"> 
-                        <div class= "project_button project_button--storm">
-                            <p class="link">View Casestudy</p>
-                        </div>
-                    </a>
+          <div class="project_imagecontainer">
+            <picture class="picture_container">
+              <source
+                media="(min-width: 1080px)"
+                srcset="images/mainpages/cloudcoverBanner-large.png"
+              />
+              <source
+                media="(min-width: 500px)"
+                srcset="images/mainpages/cloudcoverBanner-medium.png"
+              />
+              <source
+                media="(min-width: 0px)"
+                srcset="images/mainpages/cloudcoverBanner-small.png"
+              />
+              <img
+                class="projectimage"
+                src="images/mainpages/cloudcoverBanner-medium.png"
+                alt="Nord VPN Project"
+              />
+            </picture>
+          </div>
+          <div class="project_textcontainer project_textcontainer--storm">
+            <h2 class="project_title">Nord VPN App Rebranding</h2>
+            <p class="description">
+              I analyzed Nord VPN’s mobile interface to rebrand the app under a
+              new name, visual style, and new microinteractions I animated
+            </p>
+            <div class="project_buttoncontainer">
+              <a class="link" href="casestudy_nord.html">
+                <div class="project_button project_button--storm">
+                  <p class="link">View Casestudy</p>
                 </div>
+              </a>
             </div>
+          </div>
         </div>
         <div class="projectcontainer projectcontainer--blue">
-            <div class="project_imagecontainer">
-                <picture class="picture_container">
-                    <source media="(min-width: 1080px)" srcset="images/mainpages/techradarBanner-large.png" />
-                    <source media="(min-width: 500px)" srcset="images/mainpages/techradarBanner-medium.png" />
-                    <source media="(min-width: 0px)" srcset="images/mainpages/techradarBanner-small.png" />
-                    <img class="projectimage" src= "images/mainpages/techradarBanner-medium.png" 
-                    alt="Techradar.com project">
-                </picture>
-            </div>
-            <div class="project_textcontainer project_textcontainer--blue">
-                <h2 class="project_title">
-                    Techradar.com Site Redesign
-                </h2>
-                <p class="description">
-                    I performed a heuristic analysis on Techradar.com and used
-                    my findings to perform a mobile-first site redesign
-                </p>  
-                <div class= "project_buttoncontainer">
-                    <a class="link" href="casestudy_techradar.html"> 
-                        <div class= "project_button project_button--blue">
-                            <p class="link">View Casestudy</p>
-                        </div>
-                    </a>
+          <div class="project_imagecontainer">
+            <picture class="picture_container">
+              <source
+                media="(min-width: 1080px)"
+                srcset="images/mainpages/techradarBanner-large.png"
+              />
+              <source
+                media="(min-width: 500px)"
+                srcset="images/mainpages/techradarBanner-medium.png"
+              />
+              <source
+                media="(min-width: 0px)"
+                srcset="images/mainpages/techradarBanner-small.png"
+              />
+              <img
+                class="projectimage"
+                src="images/mainpages/techradarBanner-medium.png"
+                alt="Techradar.com project"
+              />
+            </picture>
+          </div>
+          <div class="project_textcontainer project_textcontainer--blue">
+            <h2 class="project_title">Techradar.com Site Redesign</h2>
+            <p class="description">
+              I performed a heuristic analysis on Techradar.com and used my
+              findings to perform a mobile-first site redesign
+            </p>
+            <div class="project_buttoncontainer">
+              <a class="link" href="casestudy_techradar.html">
+                <div class="project_button project_button--blue">
+                  <p class="link">View Casestudy</p>
                 </div>
+              </a>
             </div>
+          </div>
         </div>
         <div class="projectcontainer projectcontainer--light">
-            <div class="project_imagecontainer">
-                <picture class="picture_container">
-                    <source media="(min-width: 1080px)" srcset="images/mainpages/jaelectricBanner-large.jpg" />
-                    <source media="(min-width: 500px)" srcset="images/mainpages/jaelectricBanner-medium.jpg" />
-                    <source media="(min-width: 0px)" srcset="images/mainpages/jaelectricBanner-small.jpg" />
-                    <img class="projectimage" src= "images/mainpages/jaelectricBanner-medium.jpg" 
-                    alt="JA Electric Project">
-                </picture>
-            </div>
-            <div class="project_textcontainer project_textcontainer--light">
-                <h2 class="project_title">
-                   JA Electric Site Design 
-                </h2>
-                <p class="description">
-                    Check out a website I built for a local Residential Electric Company
-                </p>  
-                <div class= "project_buttoncontainer">
-                    <a class="link" href="casestudy_JAElectric.html">
-                        <div class= "project_button project_button--light">
-                            <p class="link"> View Project</p>
-                        </div>
-                    </a>    
+          <div class="project_imagecontainer">
+            <picture class="picture_container">
+              <source
+                media="(min-width: 1080px)"
+                srcset="images/mainpages/jaelectricBanner-large.jpg"
+              />
+              <source
+                media="(min-width: 500px)"
+                srcset="images/mainpages/jaelectricBanner-medium.jpg"
+              />
+              <source
+                media="(min-width: 0px)"
+                srcset="images/mainpages/jaelectricBanner-small.jpg"
+              />
+              <img
+                class="projectimage"
+                src="images/mainpages/jaelectricBanner-medium.jpg"
+                alt="JA Electric Project"
+              />
+            </picture>
+          </div>
+          <div class="project_textcontainer project_textcontainer--light">
+            <h2 class="project_title">JA Electric Site Design</h2>
+            <p class="description">
+              Check out a website I built for a local Residential Electric
+              Company
+            </p>
+            <div class="project_buttoncontainer">
+              <a class="link" href="casestudy_JAElectric.html">
+                <div class="project_button project_button--light">
+                  <p class="link">View Project</p>
                 </div>
+              </a>
             </div>
+          </div>
         </div>
         <div class="projectcontainer projectcontainer--dark">
-            <div class="project_imagecontainer">
-                <picture class="picture_container">
-                    <source media="(min-width: 1080px)" srcset="images/mainpages/thecycleBanner-large.jpg" />
-                    <source media="(min-width: 500px)" srcset="images/mainpages/thecycleBanner-medium.jpg" />
-                    <source media="(min-width: 0px)" srcset="images/mainpages/thecycleBanner-small.jpg" />
-                    <img class="projectimage" src= "images/mainpages/thecycleBanner-medium.jpg" 
-                    alt="The Cycle project">
-                </picture>
-            </div>
-            <div class="project_textcontainer project_textcontainer--dark">
-                <h2 class="project_title">
-                    <i>"The Cycle"</i> Animation
-                </h2>
-                <p class="description">
-                    Check out my process behind making this short animation!
-                </p>  
-                <div class= "project_buttoncontainer">
-                    <a class= "link" href="casestudy_TheCycle.html">
-                        <div class= "project_button project_button--dark">
-                          <p class="link">View Project</p>   
-                        </div>
-                    </a>    
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-    <footer>
-        <div class="footer">
-            <div class="footer_buttoncontainer">
-                <button class="footer_button" onclick="window.location.href='mailto:dpa35@drexel.edu';">
-                    Let's Connect
-                </button>
-            </div>
-            <h4 class="footer_header">
-                Get in touch if you have a new project or 
-                just want to chat! :)
-            </h4>
-            <div class=" socialmedia_container">
-                <div class="socialmedia_imagecontainer">
-                    <a href="https://www.instagram.com/durando_angiulo/" target= "_blank">
-                        <img class="socialmedia_image" src="./images/mainpages/instagram.png" alt="instagram link" />
-                    </a>
-                </div>
-                <div class="socialmedia_imagecontainer">
-                    <a href="https://twitter.com/durandoangiulo?lang=en" target= "_blank">
-                        <img class="socialmedia_image" src="./images/mainpages/twitter.png" alt="instagram link" />
-                    </a>
-                </div>
-                <div class="socialmedia_imagecontainer">
-                    <a href="https://www.linkedin.com/in/durando-angiulo-971b57203" target= "_blank">
-                        <img class="socialmedia_image" src="./images/mainpages/linkdin.png" alt="instagram link" />
-                    </a>
-                </div>
-            </div>
-            <div class=" pageborder pageborder--white"></div>
-            <p class="footertext">
-                &copy; Durando Angiulo 2022
+          <div class="project_imagecontainer">
+            <picture class="picture_container">
+              <source
+                media="(min-width: 1080px)"
+                srcset="images/mainpages/thecycleBanner-large.jpg"
+              />
+              <source
+                media="(min-width: 500px)"
+                srcset="images/mainpages/thecycleBanner-medium.jpg"
+              />
+              <source
+                media="(min-width: 0px)"
+                srcset="images/mainpages/thecycleBanner-small.jpg"
+              />
+              <img
+                class="projectimage"
+                src="images/mainpages/thecycleBanner-medium.jpg"
+                alt="The Cycle project"
+              />
+            </picture>
+          </div>
+          <div class="project_textcontainer project_textcontainer--dark">
+            <h2 class="project_title"><i>"The Cycle"</i> Animation</h2>
+            <p class="description">
+              Check out my process behind making this short animation!
             </p>
+            <div class="project_buttoncontainer">
+              <a class="link" href="casestudy_TheCycle.html">
+                <div class="project_button project_button--dark">
+                  <p class="link">View Project</p>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <div class="footer_buttoncontainer">
+          <button
+            class="footer_button"
+            onclick="window.location.href='mailto:dpa35@drexel.edu';"
+          >
+            Let's Connect
+          </button>
+        </div>
+        <h4 class="footer_header">
+          Get in touch if you have a new project or just want to chat! :)
+        </h4>
+        <div class="socialmedia_container">
+          <div class="socialmedia_imagecontainer">
+            <a
+              href="https://www.instagram.com/durando_angiulo/"
+              target="_blank"
+            >
+              <img
+                class="socialmedia_image"
+                src="./images/mainpages/instagram.png"
+                alt="instagram link"
+              />
+            </a>
+          </div>
+          <div class="socialmedia_imagecontainer">
+            <a
+              href="https://twitter.com/durandoangiulo?lang=en"
+              target="_blank"
+            >
+              <img
+                class="socialmedia_image"
+                src="./images/mainpages/twitter.png"
+                alt="instagram link"
+              />
+            </a>
+          </div>
+          <div class="socialmedia_imagecontainer">
+            <a
+              href="https://www.linkedin.com/in/durando-angiulo-971b57203"
+              target="_blank"
+            >
+              <img
+                class="socialmedia_image"
+                src="./images/mainpages/linkdin.png"
+                alt="instagram link"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="pageborder pageborder--white"></div>
+        <p class="footertext">&copy; Durando Angiulo 2022</p>
+      </div>
     </footer>
-    <script src="main.js"> </script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
