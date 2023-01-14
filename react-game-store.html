@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Game Nexus: Videogame Ecommerce Website</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <!-- mobile nav -->
+      <div class="mobile_navcontainer 'mobile-nav-closed'">
+        <div class="name_container">
+          <a href="index.html">
+            <h2 class="name">Durando Angiulo</h2>
+          </a>
+        </div>
+        <!-- open button -->
+        <div id="mobile-nav-open-button" class="mobile-nav_button-container">
+          <img
+            class="menu_button"
+            src="images/mainpages/menubutton.png"
+            alt="menu button"
+          />
+        </div>
+        <nav id="mobile-nav" class="mobile-dropdown">
+          <ul class="mobile_dropdown-list">
+            <li class="nav_mobile-list-item">
+              <a href="work.html" class="nav_mobile-list-link"> WORK </a>
+            </li>
+            <li class="nav_mobile-list-item">
+              <a href="about.html" class="nav_mobile-list-link"> ABOUT </a>
+            </li>
+            <li class="nav_mobile-list-item">
+              <a
+                href="mailto:dpa35@drexel.edu;"
+                target="blank"
+                class="nav_mobile-list-link"
+              >
+                CONTACT
+              </a>
+            </li>
+          </ul>
+          <div
+            id="mobile-nav-close-button"
+            class="mobile-nav_close-button-container"
+          >
+            <img
+              class="xbutton"
+              src="images/mainpages/xbutton.png"
+              alt="x button"
+            />
+          </div>
+        </nav>
+      </div>
+      <!-- desktop nav -->
+      <div class="nav_desktop">
+        <div class="nav_desktopcontainer">
+          <div class="name_container">
+            <a href="index.html">
+              <h2 class="name">Durando Angiulo</h2>
+            </a>
+          </div>
+          <ul class="nav_desktop-list">
+            <li class="nav_desktop-list-item nav_desktop-list-item--text">
+              <a href="work.html" class="nav_desktop-list-link"> WORK </a>
+            </li>
+            <li class="nav_desktop-list-item nav_desktop-list-item--text">
+              <a href="about.html" class="nav_desktop-list-link"> ABOUT </a>
+            </li>
+            <li class="nav_desktop-list-item">
+              <button
+                class="menu-contact_button"
+                onclick="window.location.href='mailto:dpa35@drexel.edu';"
+              >
+                CONTACT
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="casestudywrapper">
+      <div class="casestudytitle_container">
+        <h1 class="casestudy_titletext">
+          Game Nexus: Videogame Ecommerce Website
+        </h1>
+      </div>
+      <div class="casestudycontainer">
+        <div
+          class="casestudy_imagecontainer--center casestudy_imagecontainer--epicgames"
+        >
+          <picture>
+            <source
+              media="(min-width: 800px)"
+              srcset="images/reactEcommerceSite/header-shop-md.png"
+            />
+            <source
+              media="(min-width: 0px)"
+              srcset="images/reactEcommerceSite/header-shop-sm.png"
+            />
+            <img
+              class="casestudy_image"
+              src="images/reactEcommerceSite/header-shop-md.png"
+              alt="header image"
+            />
+          </picture>
+        </div>
+        <div class="casestudy_textcontainer casestudy_textcontainer--first">
+          <p>
+            For this term-long project, I was assigned to create an Ecommerce
+            web application protoype using the React framework that included a
+            live database, visitable product pages, a functional shopping cart,
+            and a interactable admin page. I chose to make a videogame ecommerce
+            site for this assignment
+          </p>
+        </div>
+      </div>
+      <header class="headercontainer">
+        <div class="pageborder"></div>
+        <h1 class="header_parttitle">PROCESS & INSIGHT</h1>
+        <p class="header_part">Part I</p>
+      </header>
+      <div class="casestudycontainer">
+        <div
+          class="casestudy_imagecontainer--center casestudy_imagecontainer--epicgames"
+        >
+          <picture>
+            <source
+              media="(min-width: 800px)"
+              srcset="images/reactEcommerceSite/planning-md.png"
+            />
+            <source
+              media="(min-width: 0px)"
+              srcset="images/reactEcommerceSite/planning-sm.png"
+            />
+            <img
+              class="casestudy_image"
+              src="images/reactEcommerceSite/planning-md.png"
+              alt="planning"
+            />
+          </picture>
+        </div>
+        <div class="casestudysectiontitle_container">
+          <h2 class="casestudySectiontitle">Laying out my <b>Designs</b></h2>
+        </div>
+        <div class="casestudy_textcontainer">
+          <p>
+            Before I wrote a single line of code, I first took a moment to
+            create some preliminary designs of what I wanted my final site to
+            look like. While I didn't follow these mockups perfectly, the
+            typography, colors, and layouts I put togther made the intial
+            styling of my site go much faster.
+          </p>
+          <p class="secondparagraph">
+            I also took this time to gather every asset I needed for the final
+            prototype as well as roughly planning out the type of code
+            structures/functions I needed to build the entire web application.
+          </p>
+        </div>
+      </div>
+      <header class="headercontainer">
+        <div class="pageborder"></div>
+        <h1 class="header_parttitle">CODING & DEVELOPMENT</h1>
+        <p class="header_part">Part II</p>
+      </header>
+      <div class="casestudycontainer">
+        <div
+          class="casestudy_imagecontainer--center casestudy_imagecontainer--epicgames"
+        >
+          <picture>
+            <source
+              media="(min-width: 800px)"
+              srcset="images/reactEcommerceSite/code-md.png"
+            />
+            <source
+              media="(min-width: 0px)"
+              srcset="iimages/reactEcommerceSite/code-sm.png"
+            />
+            <img
+              class="casestudy_image"
+              src="images/reactEcommerceSite/code-md.png"
+              alt="code"
+            />
+          </picture>
+        </div>
+        <div class="casestudysectiontitle_container">
+          <h2 class="casestudySectiontitle"><b>Inital Site</b> Construction</h2>
+        </div>
+        <div class="casestudy_textcontainer">
+          <p>
+            My development process was very iterative and I found myself
+            designing alongside adding functionality as my site’s vision
+            evolved.
+          </p>
+          <p class="secondparagraph">
+            Initially I created and stylized all my relative pages using CSS &
+            Bootstrap. Along the way I implemented my first React components for
+            specific elements on my pages to avoid redundant code.
+          </p>
+        </div>
+      </div>
+      <div class="casestudycontainer">
+        <div
+          class="casestudy_imagecontainer--center casestudy_imagecontainer--epicgames"
+        >
+          <picture>
+            <source
+              media="(min-width: 800px)"
+              srcset="images/reactEcommerceSite/firebase-md.jpg"
+            />
+            <source
+              media="(min-width: 0px)"
+              srcset="images/reactEcommerceSite/firebase-sm.jpg"
+            />
+            <img
+              class="casestudy_image"
+              src="images/reactEcommerceSite/firebase-md.jpg"
+              alt="firebase"
+            />
+          </picture>
+        </div>
+        <div class="casestudysectiontitle_container">
+          <h2 class="casestudySectiontitle"><b>Database</b> Setup</h2>
+        </div>
+        <div class="casestudy_textcontainer">
+          <p>
+            My first stretch of development revolved around setting up a live
+            database to pull all my game data from. I used Google Firebase to
+            accomplish this and set up a local store in my application to make
+            it easy to call my data wherever I needed it.
+          </p>
+        </div>
+      </div>
+      <div class="casestudycontainer">
+        <div
+          class="casestudy_imagecontainer--center casestudy_imagecontainer--epicgames"
+        >
+          <picture>
+            <source
+              media="(min-width: 800px)"
+              srcset="images/reactEcommerceSite/gamepage-md.png"
+            />
+            <source
+              media="(min-width: 0px)"
+              srcset="images/reactEcommerceSite/gamepage-sm.png"
+            />
+            <img
+              class="casestudy_image"
+              src="images/reactEcommerceSite/gamepage-md.png"
+              alt="gamepage"
+            />
+          </picture>
+        </div>
+        <div class="casestudysectiontitle_container">
+          <h2 class="casestudySectiontitle">
+            <b>Home & Game Page</b> Development
+          </h2>
+        </div>
+        <div class="casestudy_textcontainer">
+          <p>
+            I then set up my home page shop and specific game pages. Usually
+            route parameters, I passed down props through my components to link
+            up all my game assets so that everything from imagry to text fields
+            were actually dispayed in real time from my database to my site.
+          </p>
+        </div>
+      </div>
+      <div class="casestudycontainer">
+        <div
+          class="casestudy_imagecontainer--center casestudy_imagecontainer--epicgames"
+        >
+          <picture>
+            <source
+              media="(min-width: 800px)"
+              srcset="images/reactEcommerceSite/admin-md.png"
+            />
+            <source
+              media="(min-width: 0px)"
+              srcset="images/reactEcommerceSite/admin-sm.png"
+            />
+            <img
+              class="casestudy_image"
+              src="images/reactEcommerceSite/admin-md.png"
+              alt="admin"
+            />
+          </picture>
+        </div>
+        <div class="casestudysectiontitle_container">
+          <h2 class="casestudySectiontitle"><b>Admin</b> Page Development</h2>
+        </div>
+        <div class="casestudy_textcontainer">
+          <p>
+            Next I focused on the creation of my backend Admin page. Using forms
+            and a model system, I created an Admin page where all my game data
+            could be altered in real time, from changing things like the name &
+            description, to the price itself.
+          </p>
+        </div>
+      </div>
+      <div class="casestudycontainer">
+        <div
+          class="casestudy_imagecontainer--center casestudy_imagecontainer--epicgames"
+        >
+          <picture>
+            <source
+              media="(min-width: 800px)"
+              srcset="images/reactEcommerceSite/cart-md.png"
+            />
+            <source
+              media="(min-width: 0px)"
+              srcset="images/reactEcommerceSite/cart-sm.png"
+            />
+            <img
+              class="casestudy_image"
+              src="images/reactEcommerceSite/cart-md.png"
+              alt="cart"
+            />
+          </picture>
+        </div>
+        <div class="casestudysectiontitle_container">
+          <h2 class="casestudySectiontitle"><b>Cart</b> Page Development</h2>
+        </div>
+        <div class="casestudy_textcontainer">
+          <p>
+            Finally, I implemented a cart system to faciliate the process of
+            checking out a game from the site. From the cart, a user could add
+            or remvove items, or increase the quanity of items purchased. The
+            totals and tax would be calcuated automatically and would be shown
+            to users before "checking out".
+          </p>
+        </div>
+      </div>
+      <header class="headercontainer">
+        <div class="pageborder"></div>
+        <h1 class="header_parttitle">FINAL ECOMMERCE SITE PROTOTYPE</h1>
+        <p class="header_part">Part III</p>
+      </header>
+      <div class="casestudycontainer">
+        <div
+          class="casestudy_imagecontainer--center casestudy_imagecontainer--epicgamestwo"
+        >
+          <a
+            href="https://idm363-dpa35-4onr6vhd5-durandoangiulo.vercel.app/"
+            target="_blank"
+          >
+            <picture>
+              <source
+                media="(min-width: 800px)"
+                srcset="images/reactEcommerceSite/final-md.png"
+              />
+              <source
+                media="(min-width: 0px)"
+                srcset="images/epicgamesmicrointeraction/final-sm.png"
+              />
+              <img
+                class="casestudy_image"
+                src="images/epicgamesmicrointeraction/final-md.png"
+                alt="final"
+              />
+            </picture>
+          </a>
+        </div>
+
+        <div class="casestudysectiontitle_container">
+          <h2 class="casestudySectiontitle"><b>Final</b> Build</h2>
+        </div>
+        <div class="casestudy_textcontainer">
+          <p>
+            To check out my current build of my Ecommerce site, simply click the
+            image above!
+          </p>
+        </div>
+        <div class="casestudysectiontitle_container">
+          <h2 class="casestudySectiontitle">Project <b>Reflection</b></h2>
+        </div>
+        <div class="casestudy_textcontainer">
+          <p>
+            I am very proud of how my final React web app turned out. Prior to
+            this assignment my React knowledge was limted and while I still have
+            a lot to learn about the framework, I am happy about what I was able
+            to accomplish with my introductory knowledge.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <div class="footer_buttoncontainer">
+          <button
+            class="footer_button"
+            onclick="window.location.href='mailto:dpa35@drexel.edu';"
+          >
+            Let's Connect
+          </button>
+        </div>
+        <h4 class="footer_header">
+          Get in touch if you have a new project or just want to chat! :)
+        </h4>
+        <div class="socialmedia_container">
+          <div class="socialmedia_imagecontainer">
+            <a
+              href="https://www.instagram.com/durando_angiulo/"
+              target="_blank"
+            >
+              <img
+                class="socialmedia_image"
+                src="./images/mainpages/instagram.png"
+                alt="instagram link"
+              />
+            </a>
+          </div>
+          <div class="socialmedia_imagecontainer">
+            <a
+              href="https://twitter.com/durandoangiulo?lang=en"
+              target="_blank"
+            >
+              <img
+                class="socialmedia_image"
+                src="./images/mainpages/twitter.png"
+                alt="instagram link"
+              />
+            </a>
+          </div>
+          <div class="socialmedia_imagecontainer">
+            <a
+              href="https://www.linkedin.com/in/durando-angiulo-971b57203"
+              target="_blank"
+            >
+              <img
+                class="socialmedia_image"
+                src="./images/mainpages/linkdin.png"
+                alt="instagram link"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="pageborder pageborder--white"></div>
+        <p class="footertext">&copy; Durando Angiulo 2022</p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
