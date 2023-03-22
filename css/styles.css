@@ -1090,6 +1090,9 @@ a {
 .casestudy_imagecontainer--epicgamestwo {
   background-color: #090909;
 }
+.casestudy_imagecontainer--kami {
+  background-color: #e57265;
+}
 @media screen and (min-width: 450px) {
   /* headerselectors */
   :root {
