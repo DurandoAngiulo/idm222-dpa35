@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Kami Foodtruck Food-Ordering Web App</title>
+    <title>Pocket Dice Xcode App Prototype</title>
   </head>
   <body>
     <nav class="nav">
@@ -84,9 +84,7 @@
     </nav>
     <div class="casestudywrapper">
       <div class="casestudytitle_container">
-        <h1 class="casestudy_titletext">
-          Kami Foodtruck Food-Ordering Web App
-        </h1>
+        <h1 class="casestudy_titletext">Pocket Dice Xcode App Prototype</h1>
       </div>
       <div class="casestudycontainer">
         <div
@@ -95,50 +93,46 @@
           <picture>
             <source
               media="(min-width: 800px)"
-              srcset="images/kami-foodtruck/home-1-md.png"
+              srcset="images/pocketDice/hero-md.png"
             />
             <source
               media="(min-width: 0px)"
-              srcset="images/kami-foodtruck/home-1-sm.png"
+              srcset="images/pocketDice/hero-sm.png"
             />
             <img
               class="casestudy_image"
-              src="images/kami-foodtruck/home-1-md.png"
-              alt="Kami"
+              src="images/pocketDice/hero-md.png"
+              alt="Pocket Dice"
             />
           </picture>
         </div>
         <div class="casestudy_textcontainer casestudy_textcontainer--first">
           <p>
-            For this term-long project, I was a part of a team of 4 assigned
-            with creating a functional web app prototype of a foodtruck ordering
-            interface. Our team chose Kami Foodtruck, a truck specializing in
-            Korean dishes, for our application. This prototype's goal would be
-            to facilitate a user ordering a dish online then going to the truck to pick
-            up their order.
+            For this term-long project, I was tasked with creating a small
+            functional app prototype within the Apple XCode framework, using a
+            combination of the Storyboard development environemnt and some
+            custom swift classes & programming.
           </p>
           <p class="secondparagraph">
-            For this project, our team was divided into different roles to
-            tackle the variety of tasks that would need to be completed at the
-            end of this assignment. My role was that of the back-end coder. This
-            role meant I was responsible for all the backend programming that
-            would make our web app actually functional. My main goals in this role
-            were (but not limted to):
+            For this assignment, I decided to create a life tracker app. As an
+            avid Magic the Gathering player, I thought it would be a fun
+            challenge to create my own life tracking app in order to manage
+            health when playing games with my friends. My goals to make this app
+            possible were to:
           </p>
           <ul>
             <li>
-              Setting up a database where all the visual and text content of our
-              project would be hosted and queried.
+              Design all my screens, then create responsive screen size versions
+              of them in Xcode using the storyboard editor.
             </li>
             <li>
-              Creating a query system that allowed items a user ordered to be
-              passed in and out the database dependant on where they were in the
-              checkout procedure.
+              Implement my app-defining mechanic, being that a user could tap
+              above their unique life total to increase it and below to subtract
+              from it.
             </li>
             <li>
-              Implementing login functionality that would allow a guest to sign
-              up/login to the application and transfer any cart items to the new
-              logged in user.
+              Pass data between screens so that users can set the defualt
+              starting life for their game to unique values.
             </li>
           </ul>
         </div>
@@ -156,33 +150,33 @@
             <picture>
               <source
                 media="(min-width: 800px)"
-                srcset="images/kami-foodtruck/database-md.png"
+                srcset="images/pocketDice/flow-md.png"
               />
               <source
                 media="(min-width: 0px)"
-                srcset="images/kami-foodtruck/database-sm.png"
+                srcset="images/pocketDice/flow-sm.png"
               />
               <img
                 class="casestudy_image"
-                src="images/kami-foodtruck/database-sm.png"
-                alt="database"
+                src="images/pocketDice/flow-md.png"
+                alt="screens"
               />
             </picture>
           </a>
         </div>
         <div class="casestudysectiontitle_container">
-          <h2 class="casestudySectiontitle">Setting up my <b>Database</b></h2>
+          <h2 class="casestudySectiontitle">Creating my <b>Screens</b></h2>
         </div>
         <div class="casestudy_textcontainer">
           <p>
-            The first step of my role was to set up a databse
-            where I could add, update, and query database items to the site. I
-            first outlined a 4-table structure that would be able to handle all
-            the elements and features I would ultimately be implementing in
-            order to have a road map for future development. These tables
-            included Orders, Cart items, Menu Items, and Users. I then used PHP,
-            mySQl, and PHPMyAdmin to create the actual database tables, and
-            inputted all of Kami's menu items into my database table structure.
+            My first step of this assignment was creating all the screens
+            present in my application. I did a brief design mockup using Figma
+            then began implementing my designs in XCode. My final screens
+            included my Home page, my Life selection page, the Tracker page, and
+            a Help page. All of theses screens were unique in their content and
+            design and I used a combination of auto and custom contraint rules
+            to make sure everything was responsive and fit correctly on any
+            phone screen size.
           </p>
         </div>
       </div>
@@ -194,103 +188,96 @@
             <picture>
               <source
                 media="(min-width: 800px)"
-                srcset="images/kami-foodtruck/cart-md.png"
+                srcset="images/pocketDice/main-md.png"
               />
               <source
                 media="(min-width: 0px)"
-                srcset="images/kami-foodtruck/cart-sm.png"
+                srcset="images/pocketDice/main-sm.png"
               />
               <img
                 class="casestudy_image"
-                src="images/kami-foodtruck/cart-md.png"
-                alt="cart"
-              />
-            </picture>
-          </a>
-        </div>
-        <div class="casestudysectiontitle_container">
-          <h2 class="casestudySectiontitle">Creating my <b>Order System</b></h2>
-        </div>
-        <div class="casestudy_textcontainer">
-          <p></p>
-          <p class="secondparagraph">
-            My next step in my backend fucntionality was to create a dynamic
-            ordering system that would track what a user added to thier cart,
-            how many of that particular item they added, and any other relevant
-            information like spice level or protien choice. The next step would
-            be to store this information in the database then be able to requery
-            it correctly at the cart, checkout. and order confirmation pages.
-          </p>
-          <p class="secondparagraph">
-            To implement this feature I first created a function that on page
-            load, a new order would be created that was tied to the current
-            session user's id. I then wrote query functions that added items and
-            their data as a cart item in the Cart Items table. These queries
-            would tie every cart item created to the active order that was
-            linked to the current session user's id. it was using this process
-            that allowed me to store all relevant order data and reqery it later
-            on in the checkout process.
-          </p>
-        </div>
-      </div>
-      <div class="casestudycontainer">
-        <div
-          class="casestudy_imagecontainer--center casestudy_imagecontainer--kami"
-        >
-          <a>
-            <picture>
-              <source
-                media="(min-width: 800px)"
-                srcset="images/kami-foodtruck/login-md.png"
-              />
-              <source
-                media="(min-width: 0px)"
-                srcset="images/kami-foodtruck/login-sm.png"
-              />
-              <img
-                class="casestudy_image"
-                src="images/kami-foodtruck/login-md.png"
-                alt="login"
+                src="images/pocketDice/main-md.png"
+                alt="main"
               />
             </picture>
           </a>
         </div>
         <div class="casestudysectiontitle_container">
           <h2 class="casestudySectiontitle">
-            Implementing <b>Login Functionality</b>
+            Implementing my <b>Core Functionality</b>
           </h2>
         </div>
         <div class="casestudy_textcontainer">
           <p></p>
           <p class="secondparagraph">
-            My last main step in my section of this project was to create a
-            robust login system that would allow a guest to both signup/login as
-            a user as well as have all the order data they made as a guest
-            transfer over to thier new permenant user in the following checkout
-            & order confirmation pages.
+            My next step was to create dynamic button functionality on the main
+            tracker page that allowed for addition and subtraction to all life
+            totals depending on where a user clicked. This was the main purpose
+            of my app so there was little room to compromise on my vision here.
+            Before beginning coding, I polished up the screen, making sure to
+            set up 8 invisible button touch spaces, (two per life counter box)
+            in order for each player to have the functionality to manipulate
+            their specific life total.
           </p>
           <p class="secondparagraph">
-            To make this feature possible, I first created functionality that on
-            page load, the app would check if a user existed in the databse that
-            matched the currrent user. If this wasn't true (which would usually
-            be the case), a guest user would be created to store all their order
-            items. Next, after leaving the cart page to check out, the user
-            would then be prompted to signup/login. Here, I created query
-            functionality to add a new user to the database after they filled
-            out the signup fields, and then corretcly log them in after they
-            filled out the login fields. On login, I also added functionality
-            that updated the newly logged in user's id with the guest's id instead. It
-            was in this way that all the orders/cart items currently tied to the
-            guest would then be transfered over to the new logged in user.
-            Finally, to avoid errors, queried the database one last time to
-            delete the guest user. it was by doing all this that allowed me to
-            reach my goal of a dynamic login system.
+            I then intially created a custom controller class for the screen.
+            Within this code space I did a couple different things to hook up my
+            app on the backend. First, I hooked up all the life total text
+            labels that were displayed to the players so that I could manipulate
+            them in the future. I then made button eventlisteners for all 8 of
+            the buttons present on the screen (two for each user, one minus
+            button below their life total and one plus button above it). Next I
+            programmed two functions that added and subtracted life totals and
+            hooked them up to each button event listener. It was by doing this
+            that each of the 8 buttons added and subtracted life from their
+            unique player label.
+          </p>
+        </div>
+      </div>
+      <div class="casestudycontainer">
+        <div
+          class="casestudy_imagecontainer--center casestudy_imagecontainer--kami"
+        >
+          <a>
+            <picture>
+              <source
+                media="(min-width: 800px)"
+                srcset="images/pocketDice/select-md.png"
+              />
+              <source
+                media="(min-width: 0px)"
+                srcset="images/pocketDice/select-sm.png"
+              />
+              <img
+                class="casestudy_image"
+                src="images/pocketDice/select-md.png"
+                alt="select"
+              />
+            </picture>
+          </a>
+        </div>
+        <div class="casestudysectiontitle_container">
+          <h2 class="casestudySectiontitle">Passing my <b>Data</b></h2>
+        </div>
+        <div class="casestudy_textcontainer">
+          <p></p>
+          <p class="secondparagraph">
+            The last main step of my objectives with this app prototype was to
+            pass starting life data from my life selection page to my tracker
+            page. The goal of this task was to give players different starting
+            life options in case they wanted shorter or longer games. in order
+            to implement this feature, I set up a segue function that sent
+            different integer values (depending on which of the three buttons
+            was clicked) to variables I defined on the next screen (the Tracker
+            screen). Then once on the tracker screen, I slotted those variable
+            values into the text life total labels. It was by doing this, that I
+            was able to intialize game starting totals with different values.
           </p>
         </div>
       </div>
       <header class="headercontainer">
         <div class="pageborder"></div>
-        <h1 class="header_parttitle">FINAL WEB APP PROTOTYPE</h1>
+        <h1 class="header_parttitle">FINAL APP PROTOTYPE</h1>
         <p class="header_part">Part II</p>
       </header>
       <div class="casestudycontainer">
@@ -298,21 +285,21 @@
           class="casestudy_imagecontainer--center casestudy_imagecontainer--kami"
         >
           <a
-            href="https://durandoangiulo.com/idm216/final/"
+            href="https://github.com/DurandoAngiulo/idm362-dpa35/tree/final"
             target="_blank"
           >
             <picture>
               <source
                 media="(min-width: 800px)"
-                srcset="images/kami-foodtruck/final-home-md.png"
+                srcset="images/pocketDice/final-app-md.png"
               />
               <source
                 media="(min-width: 0px)"
-                srcset="images/kami-foodtruck/final-home-sm.png"
+                srcset="images/pocketDice/final-app-sm.png"
               />
               <img
                 class="casestudy_image"
-                src="images/kami-foodtruck/final-home-md.png"
+                src="images/pocketDice/final-app-md.png"
                 alt="final"
               />
             </picture>
@@ -324,33 +311,27 @@
         </div>
         <div class="casestudy_textcontainer">
           <p>
-            Our team's final build of the Kami Foodtruck food ordering Web App
-            is linked in the image above. Give it a click to explore our
-            project!
+            While not on the App store, i've linked my Githib repo to this
+            project. if you'd like, click the image above and download the repo
+            to run my protoype in XCode!
           </p>
-        <div class="casestudysectiontitle_container">
-          <h2 class="casestudySectiontitle">Project <b>Reflection</b></h2>
-        </div>
-        <div class="casestudy_textcontainer">
-          <p>
-            Overall I am quite happy with my team's final build of this application came out.
-            We all worked really hard on this assignment, from user testing and design, to
-            microinteractions and backend functionality. Every team member gave this project their
-            all and while its not perfect, we as a group accomplished the goals we set to do at the start of this
-            assignment.
-            <p class="secondparagraph">
-            I am also very proud of how my section itself came out.
-            A lot of the coding I had to do over the course of this assignment was
-            definitely a step above what I have been doing before with PHP and it was 
-            often difficult to learn so many new techniques to accomplish my delieverables.
-            but in the end, I persevered and was able to deliver fully wihtout significantly comprimising 
-            my team's overall vision, which makes me pleased.
+          <div class="casestudysectiontitle_container">
+            <h2 class="casestudySectiontitle">Project <b>Reflection</b></h2>
+          </div>
+          <div class="casestudy_textcontainer">
+            <p>
+              Overall I am happy with how my XCode application came out. While
+              there are still some problems with my build, such as less then
+              polished way I return my app to the home screen, I worked hard on
+              this assignment, putting in extra work to make sure my main goals
+              where achived, espcially sicne this nwas my first time using XCode
+              or Swift. So while its not perfect, I'm proud of the tehcniques I
+              learned and functionality I was able to create over the course of
+              this term.
             </p>
-            
-          </p>
+          </div>
         </div>
       </div>
-    </div>
     </div>
     <footer>
       <div class="footer">
