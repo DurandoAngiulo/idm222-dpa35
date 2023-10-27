@@ -983,6 +983,9 @@ a {
 .projectcontainer--epic {
   background-image: linear-gradient(to left, #121212, #121212);
 }
+.projectcontainer--kami {
+  background-image: linear-gradient(to left, #f4998f, #e57265);
+}
 /* home/work BUTTON BG COLORS */
 .project_button--green {
   background-color: rgba(73, 167, 77, 0.7);
@@ -1002,6 +1005,9 @@ a {
 }
 .project_button--drexel {
   background-color: rgba(101, 113, 142, 0.7);
+}
+.project_button--kami {
+  background-color: rgba(198, 47, 47, 0.7);
 }
 
 /* home/work TEXT CONTAINER BG colors */
